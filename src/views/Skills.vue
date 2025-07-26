@@ -82,14 +82,14 @@ const states = reactive([
     <section 
      data-aos="zoom-in"
      data-aos-duration="5000"
-      class="w-full xs:mt-12 lg:mt-14 px-3 md:px-12 flex-wrap lg:gap-4 md:gap-4 xs:gap-2 justify-center items-center lg:flex grid xs:grid-cols-2 md:grid-cols-2 lg:grid-cols-4 "
+      class="w-full xs:mt-12 lg:mt-14 px-3 md:px-12 flex-wrap lg:gap-4 md:gap-4 xs:gap-2 grid xs:grid-cols-2 md:grid-cols-2 lg:grid-cols-4"
     >
     <!-- xs:w-[280px] xs:h-[200px] -->
 
       <div v-for="state in states"
      
-     class="w-full md:w-full xs:w-full h-auto xs:h-[144px] md:h-[200px] p-3 lg:p-6 bg-gray-800 rounded-lg dark:bg-gray-900 dark:border-gray-700 transition-transform duration-500 
-      xs:border-2 lg:border-4 dark:border-2 lg:dark:border-4 border-transparent border-gray-600 hover:border-blue-700 dark:hover:border-cyan-400 hover:scale-[1.03] sm:w-[30px]md:grid-cols-3 lg:w-[330px] lg:h-[240px] xs:p-3 lg:mx-0 md:p-5"
+     class="w-full lg:w-full md:w-full xs:w-full h-auto xs:h-[144px] md:h-[200px] p-3 lg:p-6 bg-gray-800 rounded-lg dark:bg-gray-900 dark:border-gray-700 transition-transform duration-500 
+      xs:border-2 lg:border-4 dark:border-2 lg:dark:border-4 border-transparent border-gray-600 hover:border-blue-700 dark:hover:border-cyan-400 hover:scale-[1.03] sm:w-[30px] lg:h-[240px] xs:p-3 md:p-5"
 >
       
         <div class="bg-gray-300 p-3 rounded-full flex text-blue-600 lg:w-16 lg:h-16 xs:w-11 xs:h-11 justify-center items-center">
