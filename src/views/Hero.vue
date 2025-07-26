@@ -58,7 +58,7 @@
       data-aos-duration="1000" class="overflow-hidden rounded-sm relative z-10 w-[280px] lg:w-[350px] bg-cyan-400 ring-4 dark:ring-cyan-400 ring-blue-700 shadow-2lg shadow-[0_0_25px_rgba(0,0,0,0.4)] dark:shadow-cyan-400 shadow-blue-700">
             
          <img
-            src="../components/images/coder boy.avif"
+            src="/images/coder boy.avif"
             alt="Developer Image"
             class="w-full object-cover h-[340px]"
           />

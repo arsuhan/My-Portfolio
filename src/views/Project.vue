@@ -4,19 +4,19 @@ import { reactive, ref } from 'vue'
 const open = ref(true)
 const states = reactive([
   {
-    img: '/src/components/images/eee.png',
+    img: '/public/images/eee.png',
     title: 'E-Com Dashboard',
     subtitle: 'Developed a responsive e-commerce admin dashboard platform using html, css, Vue js, prime vue, sakai,',
     live: 'https://e-com-dashboard677.netlify.app/'
   },
   {
-    img: '/src/components/images/coder boy.avif',
+    img: '/public/images/ppp.png',
     title: 'Dainamic E-Shof',
     subtitle: 'Developed a responsive e-shof platform using Vue.js with a dynamic product catalog and shopping cart functionality.',
     live: 'https://dynamic-dieffenbachia-3fe431.netlify.app/'
   },
   {
-    img: '/src/components/images/ppp.png',
+    img: '/public/images/ppp.png',
     title: 'Perfume Web',
     subtitle: 'Developed a responsive Perfume web platform using Htlm,Css,Vue js',
     live: 'https://perfume-web-site.netlify.app/'

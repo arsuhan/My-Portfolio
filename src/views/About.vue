@@ -6,7 +6,7 @@
     <div class="lg:w-1/2 flex justify-center lg:justify-start xs:-mt-16 md:-mt-24 mx-auto lg:mt-16 duration-500 transition hover:scale-[1.03]">
       <img data-aos="zoom-in"
       data-aos-duration="1000"
-        src="../components/images/coder boy.avif"
+        src="/images/coder boy.avif"
         alt="About Image"
         class="xs:w-[240px] xs:h-[260px] sm:w-[280px] sm:h-[260px] md:w-[280px] md:h-[280px] lg:w-[290px] lg:h-[320px] lg:-mt-12 rounded-xl border-2 border-blue-700 dark:border-cyan-400 object-cover shadow-[0_0_25px_rgba(0,0,0,0.4)] shadow-blue-800 dark:shadow-cyan-400 duration-500 transition"
       />
@@ -24,14 +24,6 @@
       <p class="text-base sm:text-lg font-semibold text-center lg:text-left text-gray-950 dark:text-white mb-2 lg:text-2xl lg:mt-1">
         Professional Web Developer
       </p>
-      
-  
-  <!-- <p class=" lg:text-[18px] xs:text-[14px] xs:items-center xs:flex xs:justify-center text-gray-950 dark:text-white mb-4 
-            ">
-  Hello! My full name is Aminur Rahman, and my nickname is Suhan. I’m from Habiganj, Sylhet, and I’m currently studying at Habiganj Polytechnic Institute.
-  I have a deep passion for technology and programming, and I’m constantly striving to expand my knowledge in the field of web development. I enjoy building beautiful, responsive user interfaces and exploring how things work behind the scenes.
-</p> -->
-
 
       <p class="text-black dark:text-white mb-6 xs:mt-3 xs:text-[14px] lg:text-[18px] md:text-[16px] xs:-mx-1">
        Hello! My full name is Aminur Rahman, and my nickname is Suhan. I’m from Habiganj, Sylhet, and I’m currently studying at Habiganj Polytechnic Institute.
@@ -74,10 +66,4 @@
 </template>
 
 <style scoped>
-/* .justify-paragraph {
-  word-spacing: -1px;
-  line-height: 1.6;
-  hyphens: auto;
-} */
-
 </style>

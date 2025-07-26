@@ -4,61 +4,61 @@ import { reactive, ref } from 'vue'
 const open = ref(true)
 const states = reactive([
   {
-    img: '/src/components/images/html.png',
+    img: '/images/html.png',
     title: 'html',
     subtitle: 'Semantic markup, accessibility standards, SEO optimization',
     subtitle1: 'Semantic tags, SEO, a11y',
   },
   {
-    img: '/src/components/images/css.png',
+    img: '/images/css.png',
     title: 'css',
     subtitle: 'Responsive design, animations, Flexbox/Grid layouts',
      subtitle1: 'Alignment Structure Motion Grid',
   },
   {
-    img: '/src/components/images/bootstrap.png',
+    img: '/images/bootstrap.png',
     title: 'bootstrap',
     subtitle: 'Modern UI design with bootstrap 5 design with',
     subtitle1: 'Bootstrap 5 UI Design',
   },
   {
-    img: '/src/components/images/js.png',
+    img: '/images/js.png',
     title: 'java script',
     subtitle: 'ES6+, DOM manipulation, async programming',
     subtitle1: 'ES6, DOM, Async /Await',
   },
   {
-    img: '/src/components/images/tailwind.png',
+    img: '/images/tailwind.png',
     title: 'tailwind css',
     subtitle: 'Designing Custom Layouts with Tailwind CSS',
     subtitle1: 'Utility-first Layouts',
   },
   {
-    img: '/src/components/images/vue.png',
+    img: '/images/vue.png',
     title: 'vue js',
     subtitle: 'Frontend Web Development using Vue.js',
     subtitle1: 'Vue 3, Components, Props',
   },
   {
-    img: '/src/components/images/flowbite.png',
+    img: '/images/flowbite.png',
     title: 'flowbite',
     subtitle: 'Interactive UI Elements with Flowbite,',
     subtitle1: 'UI Kit + Tailwind CSS',
   },
   {
-    img: '/src/components/images/mongodb.png',
+    img: '/images/mongodb.png',
     title: 'mongodb',
     subtitle: 'Data Storage and Retrieval using MongoDB',
     subtitle1: 'NoSQL, CRUD, Atlas DB',
   },
   {
-    img: '/src/components/images/github.png',
+    img: '/images/github.png',
     title: 'git hub',
     subtitle: 'Version control, GitHub, CI/CD workflows',
     subtitle1: 'Git, Commits, CI/CD'
   },
   {
-    img: '/src/components/images/firebase.png',
+    img: '/images/firebase.png',
     title: 'firebase',
     subtitle: 'Building Real-Time Applications with Firebase',
     subtitle1: 'Auth, DB, Hosting',
@@ -66,7 +66,6 @@ const states = reactive([
 ])
 
 </script>
-
 
 <template>
     <section id="skill" class="dark:bg-[#1f242d] bg-gray-100">
