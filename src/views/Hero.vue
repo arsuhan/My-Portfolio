@@ -1,7 +1,7 @@
 <template>
     
 <section id="home" class=" md:py-2 md:h-[600px] lg:h-[580px] dark:bg-[#1f242d] bg-gray-100">
-  <section class=" lg:min-h-screen items-center justify-center md:px-6 xs:px-4 relative ">
+  <section class=" lg:min-h-screen items-center justify-center md:px-4 xs:px-4 relative ">
     <div class="items-center xs:mx-4 md:mx-10 lg:mx-28 flex ">
    
       <div data-aos="zoom-in"
@@ -17,7 +17,7 @@
         <h2 class="text-lg md:text-2xl lg:text-2xl font-semibold lg:mt-6 xs:mt-3 text-blue-700 dark:text-white xs:flex xs:items-center xs:justify-center lg:items-start lg:justify-start gap-2 md:mt-5">I am a
           <span class="dark:text-[#00f0ff] text-black lg:items-start lg:justify-start">Front End Developer</span>
         </h2>
-          <p class="text-black dark:text-white mb-6 lg:mb-3 xs:mt-3 xs:text-[14px] lg:text-[18px] md:text-[16px] xs:-mx-1 md:mt-6">
+          <p class="text-black dark:text-white mb-6 lg:mb-3 xs:mt-3 xs:text-[14px] lg:text-[18px] md:text-[16px] xs:-mx-1 md:mt-6 md:text-center xs:text-center lg:text-start">
             With a strong foundation in HTML, CSS, JavaScript, and modern frameworks like Vue.js, I enjoy building intuitive, accessible, and high-performing digital products that solve real-world problems.
         </p>
 

@@ -53,7 +53,7 @@ const submitForm = async () => {
 
    
       <section
-        class="px-9 md:px-16 lg:mt-8 xs:py-10"
+        class="p-10 md:px-16 lg:mt-8 xs:py-10"
       >
         <div class="max-w-7xl mx-auto grid md:grid-cols-2 md:gap-20 lg:gap-24 xs:gap-6">
 

@@ -25,7 +25,7 @@
         Professional Web Developer
       </p>
 
-      <p class="text-black dark:text-white mb-6 xs:mt-3 xs:text-[14px] lg:text-[18px] md:text-[16px] xs:-mx-1">
+      <p class="text-black dark:text-white mb-6 xs:mt-3 xs:text-[14px] lg:text-[18px] md:text-[16px] xs:-mx-1 md:text-center lg:text-start">
        Hello! My full name is Aminur Rahman, and my nickname is Suhan. I’m from Habiganj, Sylhet, and I’m currently studying at Habiganj Polytechnic Institute.
       I have a deep passion for technology and programming, and I’m constantly striving to expand my knowledge in the field of web development. I enjoy building beautiful, responsive user interfaces and exploring how things work behind the scenes.
       </p>

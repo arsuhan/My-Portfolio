@@ -55,13 +55,13 @@ const states = reactive([
       <div class="w-20 lg:h-1 xs:h-0.5 bg-blue-500 dark:bg-cyan-400 mx-auto mt-3 rounded"></div>
     </section>
 
-    <div class="flex lg:-mt-12 md:-mt-4 xs:-mt-4">
+    <div class="flex lg:-mt-12 md:-mt-4">
       <section
   
-  class="grid grid-cols-1 md:grid-cols-2 mx-auto lg:grid-cols-3 md:gap-4 lg:gap-6 xs:p-4 md:p-6"
+  class="grid grid-cols-1 md:grid-cols-2 mx-2 md:mx-auto lg:grid-cols-3 md:gap-4 lg:gap-6 xs:p-2 md:p-10"
 >
   <div v-for="state in states"
-    class="group bg-gray-700 border-2 border-blue-500 dark:border-cyan-400 h-auto lg:w-[380px] xs:w-[290px] xs:-mx-1 md:w-[320px] lg:mx-auto md:mx-auto rounded-lg shadow-sm dark:bg-gray-800 relative overflow-hidden transform transition-all duration-500 hover:-translate-y-2 xs:mt-10">
+    class="group bg-gray-700 border-2 border-blue-500 dark:border-cyan-400 h-auto lg:w-[380px] xs:w-full md:w-[320px] lg:mx-auto md:mx-auto rounded-lg shadow-sm dark:bg-gray-800 relative overflow-hidden transform transition-all duration-500 hover:-translate-y-2 xs:mt-7 md:mt-4">
     
     <div class="overflow-hidden h-[250px]">
       <img
