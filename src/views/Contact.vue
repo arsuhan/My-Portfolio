@@ -41,8 +41,8 @@ const submitForm = async () => {
 
 <template>
     <section id="contact" class="dark:bg-[#1f242d] bg-gray-100">
-    <section class="md:py-16 xs:-mt-8 lg:-mt-12 shadow-lg dark:text-white p-4">
-      <section class="text-center my-12 xs:-mt-1 lg:mt-6 md:-mt-8">
+    <section class="md:py-8 lg:py-16 shadow-lg dark:text-white">
+      <section class="text-center lg:my-0.1 md:-mt-8">
         <h1 class="lg:text-4xl xs:text-xl font-serif font-bold">
           <span class="dark:text-white">Get In </span>
           <span class="text-blue-600 dark:text-cyan-400">Touch</span>
@@ -53,9 +53,7 @@ const submitForm = async () => {
 
    
       <section
-        data-aos="fade-up"
-        data-aos-duration="800"
-        class="py-12 px-6 md:px-16 xs:-mt-12 lg:-mt-8"
+        class="px-9 md:px-16 lg:mt-8 xs:py-10"
       >
         <div class="max-w-7xl mx-auto grid md:grid-cols-2 md:gap-20 lg:gap-24 xs:gap-6">
 

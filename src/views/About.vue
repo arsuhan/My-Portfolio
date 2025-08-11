@@ -1,14 +1,14 @@
 <template>
 
-    <section id="about" class="py-12 lg:py-40 dark:bg-[#1f242d] bg-gray-100">
-  <div class="containe xs:mx-0 lg:mx-12 px-5 md:px-16 lg:px-16 flex flex-col lg:flex-row items-center lg:items-start gap- lg:-mt-14">
+    <section id="about" class="lg:py-24 dark:bg-[#1f242d] bg-gray-100">
+  <div class="containe xs:mx-0 lg:mx-12 px-5 md:px-12 lg:px-16 flex flex-col lg:flex-row items-center lg:items-start lg:-mt-14">
 
-    <div class="lg:w-1/2 flex justify-center lg:justify-start xs:-mt-16 md:-mt-24 mx-auto lg:mt-16 duration-500 transition hover:scale-[1.03]">
+    <div class="lg:w-1/2 flex justify-center lg:justify-start xs:mt-16 md:-mt-20 mx-auto lg:mt-28 duration-500 transition hover:scale-[1.03]">
       <img data-aos="zoom-in"
       data-aos-duration="1000"
         src="/images/coder boy.avif"
         alt="About Image"
-        class="xs:w-[240px] xs:h-[260px] sm:w-[280px] sm:h-[260px] md:w-[280px] md:h-[280px] lg:w-[290px] lg:h-[320px] lg:-mt-12 rounded-xl border-2 border-blue-700 dark:border-cyan-400 object-cover shadow-[0_0_25px_rgba(0,0,0,0.4)] shadow-blue-800 dark:shadow-cyan-400 duration-500 transition"
+        class="xs:w-[220px] xs:h-[240px] sm:w-[280px] sm:h-[260px] md:w-[280px] md:h-[280px] lg:w-[290px] lg:h-[320px] lg:-mt-12 rounded-xl border-2 border-blue-700 dark:border-cyan-400 object-cover shadow-[0_0_25px_rgba(0,0,0,0.4)] shadow-blue-800 dark:shadow-cyan-400 duration-500 transition"
       />
     </div>
 
@@ -16,7 +16,7 @@
     <div data-aos="fade-zoom-in"
      data-aos-easing="ease-in-back"
      data-aos-delay="300"
-     data-aos-offset="0" class="lg:-mt-10 w-full text-black md:mt-10 xs:mt-10">
+     data-aos-offset="0" class="lg:mt-2 w-full text-black md:mt-10 xs:mt-10">
       <h1 class="lg:text-3xl xs:text-xl sm:text-4xl font-bold font-serif mb-4 text-center lg:text-left">
         <span class=" dark:text-white">About </span><span class="dark:text-cyan-400 text-blue-500">Me</span>
       </h1>

@@ -45,9 +45,9 @@ const states = reactive([
 <template>
 
     <section id="project" class="dark:bg-[#1f242d] bg-gray-100">
-  <section class="py-16 xs:-mt-4 lg:-mt-14 items-center">
-    <section class="text-center my-12 xs:-mt-12 lg:mt-6">
-      <h1 class="lg:text-4xl xs:text-xl font-bold font-serif">
+  <section class="py-8 items-center">
+    <section class="text-center lg:my-12">
+      <h1 class="lg:text-4xl xs:text-xl font-bold font-serif xs:-mt-6">
         <span class="dark:text-white">My </span>
         <span class="text-blue-600 dark:text-cyan-400">Projects</span>
       </h1>
@@ -55,18 +55,13 @@ const states = reactive([
       <div class="w-20 lg:h-1 xs:h-0.5 bg-blue-500 dark:bg-cyan-400 mx-auto mt-3 rounded"></div>
     </section>
 
-    <div class="flex -mt-8">
+    <div class="flex lg:-mt-12 md:-mt-4 xs:-mt-4">
       <section
   
   class="grid grid-cols-1 md:grid-cols-2 mx-auto lg:grid-cols-3 md:gap-4 lg:gap-6 xs:p-4 md:p-6"
 >
-<!-- data-aos="fade-up"
-data-aos-anchor-placement="bottom-bottom"
-data-aos-duration="1500" -->
-  <div v-for="state in states" data-aos="fade-right"
-     data-aos-offset="300"
-     data-aos-easing="ease-in-sine"
-    class="group bg-gray-700 border-2 border-blue-500 dark:border-cyan-400 h-auto lg:w-[380px] xs:w-[290px] xs:-mx-1 md:w-[320px] lg:mx-auto md:mx-auto rounded-lg shadow-sm dark:bg-gray-800 relative overflow-hidden transform transition-all duration-500 hover:-translate-y-2 xs:mt-5">
+  <div v-for="state in states"
+    class="group bg-gray-700 border-2 border-blue-500 dark:border-cyan-400 h-auto lg:w-[380px] xs:w-[290px] xs:-mx-1 md:w-[320px] lg:mx-auto md:mx-auto rounded-lg shadow-sm dark:bg-gray-800 relative overflow-hidden transform transition-all duration-500 hover:-translate-y-2 xs:mt-10">
     
     <div class="overflow-hidden h-[250px]">
       <img

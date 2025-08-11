@@ -1,11 +1,11 @@
 <template>
     
-<section id="home" class=" md:py-2 md:h-[600px] lg:h-[680px] dark:bg-[#1f242d] bg-gray-100">
-  <section class=" lg:min-h-screen xs:min-h-screen items-center justify-center md:px-6 xs:px-4 relative ">
+<section id="home" class=" md:py-2 md:h-[600px] lg:h-[580px] dark:bg-[#1f242d] bg-gray-100">
+  <section class=" lg:min-h-screen items-center justify-center md:px-6 xs:px-4 relative ">
     <div class="items-center xs:mx-4 md:mx-10 lg:mx-28 flex ">
    
       <div data-aos="zoom-in"
-      data-aos-duration="1000" class="md:mt-24 lg:mt-40 lg:-m-10 xs:-m-4 xs:mt-24 md:mx-auto">
+      data-aos-duration="1000" class="md:mt-24 lg:mt-32 lg:-m-10 xs:-m-4 xs:mt-24 md:mx-auto">
         <p class="text-lg md:text-2xl lg:text-3xl font-bold text-blue-700 dark:text-white -mt-3 md:mt-0 xs:-mx-auto  lg:items-start lg:justify-start lg:block xs:flex xs:items-center xs:justify-center">
           Hello,It'Me
         </p>
@@ -52,10 +52,10 @@
         </div>
       </div>
 
-      <div class="md:hidden lg:flex relative hidden justify-center lg:justify-end w-full lg:mt-44 duration-500 transition hover:scale-[1.03]">
+      <div class="md:hidden lg:flex relative hidden justify-center lg:justify-end w-full duration-500 transition hover:scale-[1.03]">
         
           <div data-aos="zoom-in"
-      data-aos-duration="1000" class="overflow-hidden rounded-sm relative z-10 w-[280px] lg:w-[350px] bg-cyan-400 ring-4 dark:ring-cyan-400 ring-blue-700 shadow-2lg shadow-[0_0_25px_rgba(0,0,0,0.4)] dark:shadow-cyan-400 shadow-blue-700">
+      data-aos-duration="1000" class="overflow-hidden rounded-sm relative lg:mt-32 z-10 w-[280px] lg:w-[350px] bg-cyan-400 ring-4 dark:ring-cyan-400 ring-blue-700 shadow-2lg shadow-[0_0_25px_rgba(0,0,0,0.4)] dark:shadow-cyan-400 shadow-blue-700">
             
          <img
             src="/images/coder boy.avif"

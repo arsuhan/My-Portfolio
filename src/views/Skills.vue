@@ -69,9 +69,9 @@ const states = reactive([
 
 <template>
     <section id="skill" class="dark:bg-[#1f242d] bg-gray-100">
-  <section class="py-14 xs:-mt-4 lg:-mt-24 items-center">
-    <section class="text-center my-12 xs:-mt-10">
-      <h1 class="lg:text-4xl xs:text-xl lg:mt-8 font-serif font-bold">
+  <section class="py-8 items-center">
+    <section class="text-center lg:my-0">
+      <h1 class="lg:text-4xl xs:text-xl font-serif font-bold">
         <span class="dark:text-white">My </span>
         <span class=" text-blue-700 dark:text-cyan-400">Skills</span>
       </h1>
@@ -82,14 +82,13 @@ const states = reactive([
     <section 
      data-aos="zoom-in"
      data-aos-duration="5000"
-      class="w-full xs:mt-12 lg:mt-14 px-3 md:px-12 flex-wrap lg:gap-4 md:gap-4 xs:gap-2 grid xs:grid-cols-2 md:grid-cols-2 lg:grid-cols-4"
+      class="w-full xs:mt-8 lg:mt-14 px-3 md:px-12 flex-wrap lg:gap-4 md:gap-4 xs:gap-2 grid xs:grid-cols-2 md:grid-cols-2 lg:grid-cols-4"
     >
-    <!-- xs:w-[280px] xs:h-[200px] -->
 
       <div v-for="state in states"
      
      class="w-full lg:w-full md:w-full xs:w-full h-auto xs:h-[144px] md:h-[200px] p-3 lg:p-6 bg-gray-800 rounded-lg dark:bg-gray-900 dark:border-gray-700 transition-transform duration-500 
-      xs:border-2 lg:border-4 dark:border-2 lg:dark:border-4 border-transparent border-gray-600 hover:border-blue-700 dark:hover:border-cyan-400 hover:scale-[1.03] sm:w-[30px] lg:h-[240px] xs:p-3 md:p-5"
+      xs:border-2 lg:border-2 dark:border-2 lg:dark:border-2 border-transparent border-sky-500 hover:border-blue-600 hover:border-4 dark:hover:border-cyan-400 hover:scale-[1.03] sm:w-[30px] lg:h-[240px] xs:p-3 md:p-5 border-4"
 >
       
         <div class="bg-gray-300 p-3 rounded-full flex text-blue-600 lg:w-16 lg:h-16 xs:w-11 xs:h-11 justify-center items-center">
