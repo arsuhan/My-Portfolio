@@ -44,7 +44,7 @@
 
           <div class="flex flex-col md:flex-row gap-4 md:w-auto items-center md:flex md:items-center md:justify-center lg:justify-start">
           <a href="https://drive.google.com/file/d/1epM7mgiLUOKYr4bZ8DkmvZIg8PSnJWqg/view?usp=drive_link" target="_blank" class="md:w-auto ">
-            <button class="xs:flex xs:items-center xs:justify-center lg:items-start lg:justify-start lg:block xs:w-48 md:w-52 lg:w-52 md:px-4 shadow-white lg:px-8 xs:py-2 md:py-3 lg:py-3 text-white dark:text-black bg-blue-700 dark:bg-[#00f0ff] hover:shadow-[0_0_15px_rgba(0,0,0,0.4)] rounded-full font-medium transition duration-500 hover:shadow-blue-700 dark:hover:shadow-cyan-400 xs:text-sm lg:text-lg">
+            <button class="xs:flex xs:items-center xs:justify-center lg:items-start lg:justify-start lg:block xs:w-48 md:w-52 lg:w-52 md:px-4 shadow-white lg:px-8 xs:py-2 md:py-3 text-white dark:text-black bg-blue-700 dark:bg-[#00f0ff] hover:shadow-[0_0_15px_rgba(0,0,0,0.4)] rounded-full font-medium transition duration-500 hover:shadow-blue-700 dark:hover:shadow-cyan-400 xs:text-sm lg:text-lg">
               Download CV
             </button>
           </a>
@@ -60,7 +60,7 @@
          <img
             src="/images/coder boy.avif"
             alt="Developer Image"
-            class="w-full object-cover h-[340px]"
+            class="w-[360px] object-cover h-[340px]"
           />
         </div>
       </div>

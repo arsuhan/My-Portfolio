@@ -98,7 +98,7 @@ const states = reactive([
       <a href="https://github.com/arsuhan?tab=repositories" target="_blank">
         <button type="button"
           class="xs:mt-6 lg:mt- lg:text-lg xs:text-sm dark:hover:bg-cyan-400 px-5 py-2 me-2 mb-2 bg-blue-600 hover:bg-blue-700 overflow-hidden transform hover:-translate-y-2          
-          shadow-white lg:px-8 xs:py-2.5 md:py-3 lg:py-3 text-white dark:text-black dark:bg-[#00f0ff] shadow-[0_0_15px_rgba(0,0,0,0.4)] rounded-full font-medium transition duration-500 hover:shadow-blue-700 dark:hover:shadow-cyan-400">
+          shadow-white lg:px-8 xs:py-2.5 md:py-3 text-white dark:text-black dark:bg-[#00f0ff] shadow-[0_0_15px_rgba(0,0,0,0.4)] rounded-full font-medium transition duration-500 hover:shadow-blue-700 dark:hover:shadow-cyan-400">
           View All Projects
         </button>
       </a>

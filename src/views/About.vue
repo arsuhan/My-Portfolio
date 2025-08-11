@@ -55,7 +55,7 @@
 
       <div class="flex flex-col gap-4 w-full md:w-auto items-center lg:items-start mt-4 md:items-center md:flex md:justify-center md:mt-8">
           <a href="#contact" class="md:w-auto">
-            <button class="xs:w-48 md:w-52 lg:w-52 md:px-4 shadow-blue-600 dark:shadow-[#00f0ff] lg:px-8 xs:py-2 md:py-3 lg:py-3 mt-2 text-white dark:text-black bg-blue-500 dark:bg-[#00f0ff] hover:bg-blue-800 dark:hover:bg-cyan-500 shadow-[0_0_15px_rgba(0,0,0,0.4)] rounded-full font-medium transition duration-500 hover:shadow-blue-800 dark:hover:shadow-[#00f0ff] xs:text-sm lg:text-lg">
+            <button class="xs:w-48 md:w-52 lg:w-52 md:px-4 shadow-blue-600 dark:shadow-[#00f0ff] lg:px-8 xs:py-2 md:py-3 mt-2 text-white dark:text-black bg-blue-500 dark:bg-[#00f0ff] hover:bg-blue-800 dark:hover:bg-cyan-500 shadow-[0_0_15px_rgba(0,0,0,0.4)] rounded-full font-medium transition duration-500 hover:shadow-blue-800 dark:hover:shadow-[#00f0ff] xs:text-sm lg:text-lg">
               Read More
             </button>
           </a>

@@ -55,7 +55,7 @@ onMounted(() => {
       </div>
 
       <!-- Desktop Menu -->
-      <ul class="hidden md:flex items-center space-x-8 font-bold font-serif text-[18px] text-black dark:text-white">
+      <ul class="hidden md:flex items-center space-x-8 font-bold font-serif text-[17.5px] text-black dark:text-white">
         <li><a href="#home" @click="handleLinkClick" class="transition underline text-blue-600 dark:text-cyan-400">Home</a></li>
         <li><a href="#about" @click="handleLinkClick" class="hover:text-blue-600 dark:hover:text-cyan-500 hover:underline">About</a></li>
         <li><a href="#skill" @click="handleLinkClick" class="hover:text-blue-600 dark:hover:text-cyan-500 hover:underline">Skills</a></li>

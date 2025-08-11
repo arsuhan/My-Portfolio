@@ -212,7 +212,7 @@ const submitForm = async () => {
             <div class="flex items-center justify-center">
                 <button
               type="submit"
-              class="xs:flex xs:items-center xs:justify-center lg:items-start lg:justify-start lg:block xs:w-40 lg:w-60 md:px-4 shadow-white lg:px-8 xs:py-2 md:py-3 lg:py-3 text-white dark:text-black bg-blue-700 dark:bg-[#00f0ff] hover:shadow-[0_0_15px_rgba(0,0,0,0.4)] rounded-full font-medium transition duration-500 hover:shadow-blue-700 dark:hover:shadow-cyan-400 xs:text-sm lg:text-lg"
+              class="xs:flex xs:items-center xs:justify-center lg:items-start lg:justify-start lg:block xs:w-40 lg:w-60 md:px-4 shadow-white lg:px-8 xs:py-2 md:py-3 text-white dark:text-black bg-blue-700 dark:bg-[#00f0ff] hover:shadow-[0_0_15px_rgba(0,0,0,0.4)] rounded-full font-medium transition duration-500 hover:shadow-blue-700 dark:hover:shadow-cyan-400 xs:text-sm lg:text-lg"
             >
               Send Message
             </button>
