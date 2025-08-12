@@ -41,9 +41,9 @@ const submitForm = async () => {
 
 <template>
     <section id="contact" class="dark:bg-[#1f242d] bg-gray-100">
-    <section class="md:py-8 lg:py-16 shadow-lg dark:text-white">
-      <section class="text-center lg:my-0.1 md:-mt-8">
-        <h1 class="lg:text-4xl xs:text-xl font-serif font-bold">
+    <section class="py-8 -my-1 shadow-lg dark:text-white">
+      <section class="text-center">
+        <h1 class="lg:text-4xl xs:text-xl font-serif font-bold xs:-mt-6 lg:mt-1">
           <span class="dark:text-white">Get In </span>
           <span class="text-blue-600 dark:text-cyan-400">Touch</span>
         </h1>

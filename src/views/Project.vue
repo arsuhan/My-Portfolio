@@ -10,16 +10,16 @@ const states = reactive([
     live: 'https://e-com-dashboard677.netlify.app/'
   },
   {
-    img: '/images/esof.png',
-    title: 'Dainamic E-Shof',
-    subtitle: 'Developed a responsive e-shof platform using Vue.js with a dynamic product catalog and shopping cart functionality.',
-    live: 'https://dynamic-dieffenbachia-3fe431.netlify.app/'
-  },
-  {
     img: '/images/ppp.png',
     title: 'Perfume Web',
     subtitle: 'Developed a responsive Perfume web platform using Htlm,Css,Vue js',
     live: 'https://perfume-web-site.netlify.app/'
+  },
+  {
+    img: '/images/esof.png',
+    title: 'Dainamic E-Shof',
+    subtitle: 'Developed a responsive e-shof platform using Vue.js with a dynamic product catalog and shopping cart functionality.',
+    live: 'https://dynamic-dieffenbachia-3fe431.netlify.app/'
   },
   // {
   //   img: '/src/components/images/coder boy.avif',
@@ -46,8 +46,8 @@ const states = reactive([
 
     <section id="project" class="dark:bg-[#1f242d] bg-gray-100">
   <section class="py-8 items-center">
-    <section class="text-center lg:my-12">
-      <h1 class="lg:text-4xl xs:text-xl font-bold font-serif xs:-mt-6">
+    <section class="text-center">
+      <h1 class="lg:text-4xl xs:text-xl font-bold font-serif lg:mt-4 xs:-mt-4">
         <span class="dark:text-white">My </span>
         <span class="text-blue-600 dark:text-cyan-400">Projects</span>
       </h1>
@@ -55,7 +55,7 @@ const states = reactive([
       <div class="w-20 lg:h-1 xs:h-0.5 bg-blue-500 dark:bg-cyan-400 mx-auto mt-3 rounded"></div>
     </section>
 
-    <div class="flex lg:-mt-12 md:-mt-4">
+    <div class="flex lg:mt-0.5 md:-mt-4">
       <section
   
   class="grid grid-cols-1 md:grid-cols-2 mx-2 md:mx-auto lg:grid-cols-3 md:gap-4 lg:gap-6 xs:p-2 md:p-10"

@@ -1,6 +1,6 @@
 <template>
 
-    <section id="about" class="lg:py-24 dark:bg-[#1f242d] bg-gray-100">
+    <section id="about" class="lg:py-24 -my-1 dark:bg-[#1f242d] bg-gray-100">
   <div class="containe xs:mx-0 lg:mx-12 px-5 md:px-12 lg:px-16 flex flex-col lg:flex-row items-center lg:items-start lg:-mt-14">
 
     <div class="lg:w-1/2 flex justify-center lg:justify-start xs:mt-12 md:-mt-20 mx-auto lg:mt-8 duration-500 transition hover:scale-[1.03]">
@@ -17,11 +17,11 @@
      data-aos-easing="ease-in-back"
      data-aos-delay="300"
      data-aos-offset="0" class="lg:-mt-20 w-full text-black md:mt-10 xs:mt-10">
-      <h1 class="lg:text-3xl xs:text-xl sm:text-4xl font-bold font-serif mb-4 text-center lg:text-left">
+      <h1 class="lg:text-3xl xs:text-xl sm:text-xl font-bold font-serif mb-4 text-center lg:text-left">
         <span class=" dark:text-white">About </span><span class="dark:text-cyan-400 text-blue-500">Me</span>
       </h1>
 
-      <p class="text-base sm:text-lg text-center font-semibold lg:text-left text-gray-950 dark:text-white mb-2 lg:text-2xl lg:mt-1">
+      <p class="text-base text-center font-semibold lg:text-left text-gray-950 dark:text-white mb-2 lg:text-2xl lg:mt-1">
         Professional Web Developer
       </p>
 
@@ -32,23 +32,23 @@
 
       <ul class="mt-6 space-y-2 text-xs sm:text-base text-gray-800 dark:text-white xs:text-[14px] md:text-[16px] lg:text-[18px] xs:-mx-1">
         <li class="flex md:justify-center lg:justify-start">
-          <span class="text-blue-800 dark:text-cyan-400 mr-2">▸</span>
+          <span class="text-blue-800 dark:text-cyan-400 mr-2">></span>
           <strong>Name:</strong>- Aminur Rahman
         </li>
         <li class="flex md:justify-center lg:justify-start">
-          <span class="text-blue-800 dark:text-cyan-400 mr-2">▸</span>
+          <span class="text-blue-800 dark:text-cyan-400 mr-2">></span>
           <strong>Email:</strong>- dev.aminurrahman@gmail.com
         </li>
         <li class="flex md:justify-center lg:justify-start">
-          <span class="text-blue-800 dark:text-cyan-400 mr-2">▸</span>
+          <span class="text-blue-800 dark:text-cyan-400 mr-2">></span>
           <strong>Phone:</strong>- +880 1701-635619
         </li>
         <li class="flex md:justify-center lg:justify-start">
-          <span class="text-blue-800 dark:text-cyan-400 mr-2">▸</span>
+          <span class="text-blue-800 dark:text-cyan-400 mr-2">></span>
           <strong>Education:</strong>- Diploma in Computer Engineering
         </li>
         <li class="flex md:justify-center lg:justify-start">
-          <span class="text-blue-800 dark:text-cyan-400 mr-2">▸</span>
+          <span class="text-blue-800 dark:text-cyan-400 mr-2">></span>
           <strong>Experience:</strong>- 2+ Years
         </li>
       </ul>

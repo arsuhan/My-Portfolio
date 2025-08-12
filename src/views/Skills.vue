@@ -72,8 +72,8 @@ const states = reactive([
   {
     img: '/images/postman.png',
     title: 'postman',
-    subtitle: 'Test and Debug APIs Effortlessly with Postman',
-    subtitle1: 'Test and Debug APIs Effortlessly with Postman',
+    subtitle: 'Test and Debug APIs Effortlessly',
+    subtitle1: 'Test and Debug APIs Effortlessly',
   },
 ])
 
@@ -81,9 +81,9 @@ const states = reactive([
 
 <template>
     <section id="skill" class="dark:bg-[#1f242d] bg-gray-100">
-  <section class="py-8 items-center">
+  <section class="py-8 -my-1 items-center">
     <section class="text-center">
-      <h1 class="lg:text-4xl xs:text-xl font-serif font-bold">
+      <h1 class="lg:text-4xl xs:text-xl font-serif font-bold xs:mt-2 md:mt-2 lg:-mt-5">
         <span class="dark:text-white">My </span>
         <span class=" text-blue-700 dark:text-cyan-400">Skills</span>
       </h1>

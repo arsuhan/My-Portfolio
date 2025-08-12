@@ -16,19 +16,19 @@
           class="md:mt-20 lg:-mt-10 xs:mt-24 md:mx-auto"
         >
           <p
-            class="text-lg md:text-2xl lg:text-3xl font-bold text-blue-700 dark:text-white -mt-4 md:mt-0 text-center lg:text-left"
+            class="text-lg md:text-1xl lg:text-3xl font-bold text-blue-700 dark:text-white -mt-4 md:mt-0 text-center lg:text-left"
           >
             Hello, It's Me
           </p>
 
           <h1
-            class="xs:text-2xl md:text-4xl lg:text-5xl font-bold text-blue-700 dark:text-white mt-2 underline underline-offset-4 decoration-4 text-center lg:text-left"
+            class="xs:text-2xl md:text-3xl text-center lg:text-5xl font-bold text-blue-700 dark:text-white mt-2 underline underline-offset-4 decoration-4 lg:text-left" 
           >
             Aminur Rahman
           </h1>
 
           <h2
-            class="text-lg md:text-2xl lg:text-2xl font-semibold lg:mt-6 xs:mt-3 text-blue-700 dark:text-white flex justify-center lg:justify-start gap-2 md:mt-5"
+            class="text-lg md:text-xl lg:text-2xl justify-center font-semibold lg:mt-6 xs:mt-3 text-blue-700 dark:text-white flex lg:justify-start gap-2 md:mt-5"
           >
             I am a
             <span class="dark:text-[#00f0ff] text-black">Front End Developer</span>
@@ -119,7 +119,7 @@
           <!-- CV Button -->
           <div class="flex justify-center lg:justify-start">
             <a
-              href="https://drive.google.com/file/d/1epM7mgiLUOKYr4bZ8DkmvZIg8PSnJWqg/view"
+              href="https://drive.google.com/file/d/1pZUD8rx7Dedg_3Xcw1FY4L6HBZ3peZJv/view?usp=sharing"
               target="_blank"
             >
               <button
