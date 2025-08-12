@@ -63,6 +63,18 @@ const states = reactive([
     subtitle: 'Building Real-Time Applications with Firebase',
     subtitle1: 'Auth, DB, Hosting',
   },
+  {
+    img: '/images/netlify.png',
+    title: 'netlify',
+    subtitle: 'Deploy Stunning Websites on Netlify',
+    subtitle1: 'Deploy Stunning Websites on Netlify',
+  },
+  {
+    img: '/images/postman.png',
+    title: 'postman',
+    subtitle: 'Test and Debug APIs Effortlessly with Postman',
+    subtitle1: 'Test and Debug APIs Effortlessly with Postman',
+  },
 ])
 
 </script>
@@ -85,6 +97,8 @@ const states = reactive([
     >
 
       <div v-for="state in states"
+      data-aos="zoom-in"
+      data-aos-duration="500"
      
      class="w-full lg:w-full md:w-full xs:w-full h-auto xs:h-[144px] md:h-[200px] p-3 lg:p-6 bg-gray-800 rounded-lg dark:bg-gray-900 dark:border-gray-700 transition-transform duration-500 
       xs:border-2 lg:border-2 dark:border-2 lg:dark:border-2 border-transparent border-blue-500 hover:border-blue-600 hover:border-2 dark:hover:border-cyan-400 hover:scale-[1.03] sm:w-[30px] lg:h-[220px] xs:p-3 md:p-5 border-4"

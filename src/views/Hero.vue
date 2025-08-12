@@ -7,16 +7,16 @@
       class="lg:min-h-screen flex items-center justify-center md:px-4 xs:px-4 relative"
     >
       <div
-        class="items-center xs:mx-4 md:mx-10 lg:mx-24 flex flex-wrap lg:flex-nowrap"
+        class="items-center xs:mx-4 md:mx-10 lg:mx-20 flex flex-wrap lg:flex-nowrap"
       >
         <!-- Left Content -->
         <div
           data-aos="zoom-in"
           data-aos-duration="1000"
-          class="md:mt-24 lg:-mt-10 xs:mt-24 md:mx-auto"
+          class="md:mt-20 lg:-mt-10 xs:mt-24 md:mx-auto"
         >
           <p
-            class="text-lg md:text-2xl lg:text-3xl font-bold text-blue-700 dark:text-white -mt-3 md:mt-0 text-center lg:text-left"
+            class="text-lg md:text-2xl lg:text-3xl font-bold text-blue-700 dark:text-white -mt-4 md:mt-0 text-center lg:text-left"
           >
             Hello, It's Me
           </p>
@@ -34,8 +34,9 @@
             <span class="dark:text-[#00f0ff] text-black">Front End Developer</span>
           </h2>
 
-          <p class="text-black dark:text-white mb-6 lg:mb-3 xs:mt-3 xs:text-[14px] lg:text-[18px] md:text-[16px] xs:-mx-4 md:mt-6 md:text-center lg:text-start">
-            With a strong foundation in HTML, CSS, JavaScript, and modern frameworks like Vue.js, I enjoy building intuitive, accessible, and high-performing digital products that solve real-world problems.
+          <p class="text-black dark:text-white mb-6 lg:mb-3 lg:px-4 xs:mt-3 xs:text-[14px] lg:text-[18px] md:text-[16px] xs:-mx-4 md:mt-6 md:text-center lg:text-start">
+            With a strong foundation in HTML, CSS, JavaScript, and modern frameworks like Vue.js,
+            I enjoy building intuitive, accessible, and high-performing digital products that solve real-world problems.
         </p>
 
           <!-- Social Links -->
@@ -136,6 +137,7 @@
         >
           <div
             data-aos="zoom-in"
+            data-aos-delay="100"
             data-aos-duration="1000"
             class="overflow-hidden rounded-sm relative lg:-mt-12 z-10 w-full max-w-[350px] bg-cyan-400 ring-4 dark:ring-cyan-400 ring-blue-700 shadow-[0_0_25px_rgba(0,0,0,0.4)] dark:shadow-cyan-400"
           >

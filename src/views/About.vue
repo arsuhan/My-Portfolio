@@ -6,7 +6,7 @@
     <div class="lg:w-1/2 flex justify-center lg:justify-start xs:mt-12 md:-mt-20 mx-auto lg:mt-8 duration-500 transition hover:scale-[1.03]">
       <img data-aos="zoom-in"
       data-aos-duration="1000"
-        src="/images/cras.jpg"
+        src="/images/coder boy.avif"
         alt="About Image"
         class="xs:w-[220px] xs:h-[240px] sm:w-[280px] sm:h-[260px] md:w-[280px] md:h-[280px] lg:w-[290px] lg:h-[320px] lg:-mt-12 rounded-xl border-2 border-blue-700 dark:border-cyan-400 object-cover shadow-[0_0_25px_rgba(0,0,0,0.4)] shadow-blue-800 dark:shadow-cyan-400 duration-500 transition"
       />

@@ -52,7 +52,10 @@ const submitForm = async () => {
       </section>
 
    
-      <section
+      <section data-aos="fade-up"
+      data-aos-duration="1000"
+     data-aos-anchor-placement="center-bottom"
+
         class="p-10 md:px-16 lg:mt-8 xs:py-10"
       >
         <div class="max-w-7xl mx-auto grid md:grid-cols-2 md:gap-20 lg:gap-24 xs:gap-6">
@@ -125,7 +128,7 @@ const submitForm = async () => {
   </div>
 </div>
 
-<div class="flex space-x-4 xs:mt-10 lg:mt-19 xs:mx-3 lg:mx-11 ">
+<div class="flex space-x-4 xs:mt-10 lg:mt-19 xs:mx-3 lg:mx-8 ">
   <a
     href="https://github.com/arsuhan" target="_blank"
     class=" shadow-[0_0_15px_rgba(0,0,0,0.4)] shadow-blue-700 dark:shadow-cyan-400 duration-500 hover:-translate-y-1.5 hover:shadow-sm hover:shadow-blue-700 dark:hover:shadow-cyan-400 bg-gray-100 text-blue-600 hover:bg-blue-700 dark:hover:bg-cyan-400 p-3 rounded-full hover:text-white text-xl flex justify-center items-center lg:h-10 lg:w-10 xs:h-8 xs:w-8 xs:rounded-xl"
