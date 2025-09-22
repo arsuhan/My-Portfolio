@@ -51,7 +51,7 @@ onMounted(() => {
       
       <!-- Logo -->
       <div class="lg:text-3xl text-2xl font-bold text-gray-800 dark:text-white font-serif">
-        Portfolio<span class="text-cyan-500">.</span>
+        Dev. Aminur<span class="text-cyan-500"></span>
       </div>
 
       <!-- Desktop Menu -->

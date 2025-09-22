@@ -111,10 +111,10 @@ const states = reactive([
           <h1 class="lg:text-xl xs:text-[13.5px] md:text-lg text-cyan-400 uppercase font-bold mt-4">
           {{ state.title }}
         </h1>
-        <p class="hidden md:block md:text-xl lg:text-[17px] md:text-[14px] mb-3 md:mt-3 lg:mt-2 font-normal text-cyan-200 dark:text-cyan-300">
+        <p class="hidden md:block md:text-xl lg:text-[16px] md:text-[14px] mb-3 md:mt-3 lg:mt-2 font-normal text-cyan-200 dark:text-cyan-300">
           {{ state.subtitle }}
         </p>
-        <p class="block lg:hidden md:hidden xs:text-[13px] md:text-xl lg:text-xl mb-3 md:mt-3 lg:mt-4 font-normal text-cyan-200 dark:text-cyan-300 mt-1">
+        <p class="block lg:hidden md:hidden xs:text-[13px] mb-3 md:mt-3 lg:mt-4 font-normal text-cyan-200 dark:text-cyan-300 mt-1">
           {{ state.subtitle1 }}
         </p>
         </div>

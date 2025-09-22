@@ -8,7 +8,7 @@
       data-aos-duration="1000"
         src="/images/coder boy.avif"
         alt="About Image"
-        class="xs:w-[220px] xs:h-[240px] sm:w-[280px] sm:h-[260px] md:w-[280px] md:h-[280px] lg:w-[290px] lg:h-[320px] lg:-mt-12 rounded-xl border-2 border-blue-700 dark:border-cyan-400 object-cover shadow-[0_0_25px_rgba(0,0,0,0.4)] shadow-blue-800 dark:shadow-cyan-400 duration-500 transition"
+        class="xs:w-[220px] xs:h-[240px] sm:w-[280px] sm:h-[260px] md:w-[280px] md:h-[280px] lg:w-[290px] lg:h-[340px] lg:-mt-12 rounded-xl border-2 border-blue-700 dark:border-cyan-400 object-cover shadow-[0_0_25px_rgba(0,0,0,0.4)] shadow-blue-800 dark:shadow-cyan-400 duration-500 transition"
       />
     </div>
 
@@ -37,7 +37,7 @@
         </li>
         <li class="flex md:justify-center lg:justify-start">
           <span class="text-blue-800 dark:text-cyan-400 mr-2">></span>
-          <strong>Email:</strong>- dev.aminurrahman@gmail.com
+          <strong>Email:</strong>- aminurrahmansuhan@gmail.com
         </li>
         <li class="flex md:justify-center lg:justify-start">
           <span class="text-blue-800 dark:text-cyan-400 mr-2">></span>
@@ -55,7 +55,7 @@
 
       <div class="flex flex-col gap-4 w-full md:w-auto items-center lg:items-start mt-4 md:items-center md:flex md:justify-center md:mt-8">
           <a href="#contact" class="md:w-auto">
-            <button class="xs:w-48 md:w-52 lg:w-52 md:px-4 shadow-blue-600 dark:shadow-[#00f0ff] lg:px-8 xs:py-2 md:py-3 mt-2 text-white dark:text-black bg-blue-500 dark:bg-[#00f0ff] hover:bg-blue-800 dark:hover:bg-cyan-500 shadow-[0_0_15px_rgba(0,0,0,0.4)] rounded-full font-medium transition duration-500 hover:shadow-blue-800 dark:hover:shadow-[#00f0ff] xs:text-sm lg:text-lg">
+            <button class="xs:w-48 md:w-52 lg:w-52 md:px-4 shadow-blue-600 dark:shadow-[#00f0ff] lg:px-8 xs:py-2 md:py-3 lg:py-2.5 mt-2 text-white dark:text-black bg-blue-500 dark:bg-[#00f0ff] hover:bg-blue-800 dark:hover:bg-cyan-500 shadow-[0_0_6px_rgba(0,0,0,0.4)] rounded-full font-medium transition duration-500 hover:shadow-blue-800 dark:hover:shadow-[#00f0ff] xs:text-sm lg:text-lg">
               Read More
             </button>
           </a>

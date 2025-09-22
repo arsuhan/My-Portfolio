@@ -72,7 +72,7 @@ const submitForm = async () => {
   <div class="lg:space-y-10 xs:space-y-6">
 
     <div class="flex items-start -mt-2 lg:mx-6 lg:-mt-4">
-      <div class="bg-blue-100 p-3 lg:rounded-sm xs:rounded-xl text-blue-600 mt-4">
+      <div class="bg-blue-100 p-3 lg:rounded-sm xs:rounded-xl text-cyan-600 mt-4">
         <svg
           class="lg:w-5 lg:h-5 xs:w-4 xs:h-4"
           fill="currentColor"
@@ -84,13 +84,13 @@ const submitForm = async () => {
       </div>
       <div class="xs:-mt- lg:mx-2">
         <h4 class="font-bold mt-3 mx-2 text-blue-700 dark:text-cyan-400">Email</h4>
-        <p class="dark:text-white mx-2">dev.aminurrahman@gmail.com</p>
+        <p class="dark:text-white mx-2">aminurrahmansuhan@gmail.com</p>
       </div>
     </div>
 
 
     <div class="flex items-start lg:mx-6">
-      <div class="bg-blue-100 p-3 lg:rounded-sm xs:rounded-xl text-blue-600">
+      <div class="bg-blue-100 p-3 lg:rounded-sm xs:rounded-xl text-cyan-600">
         <svg
           class="lg:w-5 lg:h-5 xs:w-4 xs:h-4"
           fill="currentColor"
@@ -109,7 +109,7 @@ const submitForm = async () => {
 
 
     <div class="flex items-start lg:mx-6">
-      <div class="bg-blue-100 p-3 lg:rounded-sm xs:rounded-xl text-blue-600">
+      <div class="bg-blue-100 p-3 lg:rounded-sm xs:rounded-xl text-cyan-600">
         <svg
           class="lg:w-5 lg:h-5 xs:w-4 xs:h-4"
           fill="currentColor"
@@ -131,25 +131,25 @@ const submitForm = async () => {
 <div class="flex space-x-4 xs:mt-10 lg:mt-19 xs:mx-3 lg:mx-8 ">
   <a
     href="https://github.com/arsuhan" target="_blank"
-    class=" shadow-[0_0_15px_rgba(0,0,0,0.4)] shadow-blue-700 dark:shadow-cyan-400 duration-500 hover:-translate-y-1.5 hover:shadow-sm hover:shadow-blue-700 dark:hover:shadow-cyan-400 bg-gray-100 text-blue-600 hover:bg-blue-700 dark:hover:bg-cyan-400 p-3 rounded-full hover:text-white text-xl flex justify-center items-center lg:h-10 lg:w-10 xs:h-8 xs:w-8 xs:rounded-xl"
+    class=" shadow-[0_0_6px_rgba(0,0,0,0.4)] shadow-blue-700 dark:shadow-cyan-400 duration-500 hover:-translate-y-1.5 hover:shadow-sm hover:shadow-blue-700 dark:hover:shadow-cyan-400 bg-gray-100 text-cyan-600 hover:bg-blue-700 dark:hover:bg-cyan-400 p-3 rounded-full hover:text-white text-xl flex justify-center items-center lg:h-10 lg:w-10 xs:h-8 xs:w-8 xs:rounded-xl"
   >
     <i class="fab fa-github"></i>
   </a>
   <a
     href="#" target="_blank"
-    class="shadow-[0_0_15px_rgba(0,0,0,0.4)] shadow-blue-700 dark:shadow-cyan-400 duration-500 hover:-translate-y-1.5 hover:shadow-sm hover:shadow-cyan-400 bg-gray-100 p-3 rounded-full text-blue-600 hover:bg-blue-700 dark:hover:bg-cyan-400 hover:text-white text-xl flex justify-center xs:rounded-xl items-center lg:h-10 lg:w-10 xs:h-8 xs:w-8"
+    class="shadow-[0_0_6px_rgba(0,0,0,0.4)] shadow-blue-700 dark:shadow-cyan-400 duration-500 hover:-translate-y-1.5 hover:shadow-sm hover:shadow-cyan-400 bg-gray-100 p-3 rounded-full text-cyan-600 hover:bg-blue-700 dark:hover:bg-cyan-400 hover:text-white text-xl flex justify-center xs:rounded-xl items-center lg:h-10 lg:w-10 xs:h-8 xs:w-8"
   >
     <i class="fab fa-linkedin-in"></i>
   </a>
   <a
     href="#" target="_blank"
-    class="shadow-[0_0_15px_rgba(0,0,0,0.4)] shadow-blue-700 dark:shadow-cyan-400 overflow-hidden transform transition-all duration-500 hover:-translate-y-2 hover:shadow-sm hover:shadow-cyan-400 bg-gray-100 p-3 rounded-full text-blue-600 hover:bg-blue-700 dark:hover:bg-cyan-400 hover:text-white text-xl flex justify-center items-center lg:h-10 lg:w-10 xs:h-8 xs:w-8 xs:rounded-xl"
+    class="shadow-[0_0_6px_rgba(0,0,0,0.4)] shadow-blue-700 dark:shadow-cyan-400 overflow-hidden transform transition-all duration-500 hover:-translate-y-2 hover:shadow-sm hover:shadow-cyan-400 bg-gray-100 p-3 rounded-full text-cyan-600 hover:bg-blue-700 dark:hover:bg-cyan-400 hover:text-white text-xl flex justify-center items-center lg:h-10 lg:w-10 xs:h-8 xs:w-8 xs:rounded-xl"
   >
     <i class="fab fa-twitter"></i>
   </a>
   <a
     href="https://www.facebook.com/profile.php?id=100082093456990" target="_blank"
-    class="shadow-[0_0_15px_rgba(0,0,0,0.4)] shadow-blue-700 dark:shadow-cyan-400 overflow-hidden transform transition-all duration-500 hover:-translate-y-2 hover:shadow-sm hover:shadow-cyan-400 bg-gray-100 hover:bg-blue-700 dark:hover:bg-cyan-400 p-3 rounded-full text-blue-600 hover:text-white text-xl flex justify-center items-center lg:h-10 lg:w-10 xs:h-8 xs:w-8 xs:rounded-xl"
+    class="shadow-[0_0_6px_rgba(0,0,0,0.4)] shadow-blue-700 dark:shadow-cyan-400 overflow-hidden transform transition-all duration-500 hover:-translate-y-2 hover:shadow-sm hover:shadow-cyan-400 bg-gray-100 hover:bg-blue-700 dark:hover:bg-cyan-400 p-3 rounded-full text-cyan-600 hover:text-white text-xl flex justify-center items-center lg:h-10 lg:w-10 xs:h-8 xs:w-8 xs:rounded-xl"
   >
     <i class="fab fa-facebook-f"></i>
   </a>
@@ -169,7 +169,7 @@ const submitForm = async () => {
                         <span class="text-blue-700 dark:text-cyan-500">Me!</span>
                     </h1>
                 </div>
-              <label for="Name" class="block text-sm font-medium text-black dark:text-white mt-6"
+              <label for="Name" class="block font-medium text-black dark:text-white mt-6"
                 >Name</label
               >
               <input
@@ -183,7 +183,7 @@ const submitForm = async () => {
             </section>
 
             <section class="xs:-mx-4 lg:mx-0">
-              <label for="Email" class="block text-sm font-medium dark:text-white "
+              <label for="Email" class="block font-medium dark:text-white "
                 >Email</label
               >
               <input
@@ -198,7 +198,7 @@ const submitForm = async () => {
             <section class="xs:-mx-4 lg:mx-0">
               <label
                 for="Message"
-                class="block text-sm font-medium dark:text-white"
+                class="block font-medium dark:text-white"
                 >Message</label
               >
               <textarea
@@ -215,7 +215,7 @@ const submitForm = async () => {
             <div class="flex items-center justify-center">
                 <button
               type="submit"
-              class="xs:flex xs:items-center xs:justify-center lg:items-start lg:justify-start lg:block xs:w-40 lg:w-60 md:px-4 shadow-white lg:px-8 xs:py-2 md:py-3 text-white dark:text-black bg-blue-700 dark:bg-[#00f0ff] hover:shadow-[0_0_15px_rgba(0,0,0,0.4)] rounded-full font-medium transition duration-500 hover:shadow-blue-700 dark:hover:shadow-cyan-400 xs:text-sm lg:text-lg"
+              class="xs:flex xs:items-center xs:justify-center lg:items-start lg:justify-start lg:block xs:w-40 lg:w-full md:px-4 shadow-white lg:px-8 xs:py-2 md:py-3 text-white dark:text-black bg-blue-700 dark:bg-[#00f0ff] hover:shadow-[0_0_8px_rgba(0,0,0,0.4)] rounded-full font-medium transition duration-500 hover:shadow-blue-700 dark:hover:shadow-cyan-400 xs:text-sm lg:text-lg lg:-mt-4"
             >
               Send Message
             </button>

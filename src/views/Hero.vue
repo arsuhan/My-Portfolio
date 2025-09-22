@@ -16,19 +16,19 @@
           class="md:mt-20 lg:-mt-10 xs:mt-24 md:mx-auto"
         >
           <p
-            class="text-lg md:text-1xl lg:text-3xl font-bold text-blue-700 dark:text-white -mt-4 md:mt-0 text-center lg:text-left"
+            class="text-lg md:text-1xl lg:text-2xl font-bold text-blue-700 dark:text-white -mt-4 md:mt-0 text-center lg:text-left"
           >
             Hello, It's Me
           </p>
 
           <h1
-            class="xs:text-2xl md:text-3xl text-center lg:text-5xl font-bold text-blue-700 dark:text-white mt-2 underline underline-offset-4 decoration-4 lg:text-left" 
+            class="xs:text-2xl md:text-3xl text-center lg:text-4xl font-bold text-blue-700 dark:text-white mt-2 underline underline-offset-4 decoration-4 lg:text-left" 
           >
-            Aminur Rahman
+            Md. Aminur Rahman
           </h1>
 
           <h2
-            class="text-lg md:text-xl lg:text-2xl justify-center font-semibold lg:mt-6 xs:mt-3 text-blue-700 dark:text-white flex lg:justify-start gap-2 md:mt-5"
+            class="text-lg md:text-xl justify-center font-semibold lg:mt-6 xs:mt-3 text-blue-700 dark:text-white flex lg:justify-start gap-2 md:mt-5"
           >
             I am a
             <span class="dark:text-[#00f0ff] text-black">Front End Developer</span>
@@ -43,29 +43,6 @@
           <div
             class="flex items-center gap-4 mb-6 justify-center lg:justify-start"
           >
-            <!-- Facebook -->
-            <a
-              href="https://www.facebook.com/profile.php?id=100082093456990"
-              target="_blank"
-              class="text-black dark:text-cyan-400 border-black dark:border-cyan-400 dark:hover:shadow-cyan-400 hover:shadow-blue-700 hover:text-blue-700 dark:hover:text-cyan-400 border duration-500 hover:-translate-y-1.5 p-2 rounded-full transition hover:shadow-[0_0_15px_rgba(0,0,0,0.4)]"
-            >
-              <svg
-                class="w-5 h-5"
-                fill="currentColor"
-                viewBox="0 0 24 24"
-              >
-                <path
-                  d="M22.675 0h-21.35C.593 0 0 .593 0 1.325v21.351C0 23.407.593 24 
-                     1.325 24h11.495V14.709h-3.13v-3.622h3.13V8.413
-                     c0-3.1 1.894-4.788 4.659-4.788 1.325 0 
-                     2.464.099 2.796.143v3.24l-1.918.001
-                     c-1.504 0-1.795.715-1.795 1.763v2.312h3.587l-.467 
-                     3.622h-3.12V24h6.116C23.407 24 
-                     24 23.407 24 22.675V1.325C24 
-                     .593 23.407 0 22.675 0z"
-                />
-              </svg>
-            </a>
 
             <!-- GitHub -->
             <a
@@ -106,9 +83,33 @@
               </svg>
             </a>
 
+            <!-- Facebook -->
+            <a
+              href="https://www.facebook.com/profile.php?id=100082093456990"
+              target="_blank"
+              class="text-black dark:text-cyan-400 border-black dark:border-cyan-400 dark:hover:shadow-cyan-400 hover:shadow-blue-700 hover:text-blue-700 dark:hover:text-cyan-400 border duration-500 hover:-translate-y-1.5 p-2 rounded-full transition hover:shadow-[0_0_15px_rgba(0,0,0,0.4)]"
+            >
+              <svg
+                class="w-5 h-5"
+                fill="currentColor"
+                viewBox="0 0 24 24"
+              >
+                <path
+                  d="M22.675 0h-21.35C.593 0 0 .593 0 1.325v21.351C0 23.407.593 24 
+                     1.325 24h11.495V14.709h-3.13v-3.622h3.13V8.413
+                     c0-3.1 1.894-4.788 4.659-4.788 1.325 0 
+                     2.464.099 2.796.143v3.24l-1.918.001
+                     c-1.504 0-1.795.715-1.795 1.763v2.312h3.587l-.467 
+                     3.622h-3.12V24h6.116C23.407 24 
+                     24 23.407 24 22.675V1.325C24 
+                     .593 23.407 0 22.675 0z"
+                />
+              </svg>
+            </a>
+
             <!-- linke din -->
 
-            <a href="#" target="_blank" class="text-black dark:text-cyan-400 border-black dark:border-cyan-400 dark:hover:shadow-cyan-400 hover:shadow-blue-700 hover:text-blue-700 dark:hover:text-cyan-400 border duration-500 hover:-translate-y-1.5 p-2 rounded-full  transition hover:shadow-[0_0_15px_rgba(0,0,0,0.4)]">
+            <a href="https://www.linkedin.com/in/aminur-rahman-200366328/" target="_blank" class="text-black dark:text-cyan-400 border-black dark:border-cyan-400 dark:hover:shadow-cyan-400 hover:shadow-blue-700 hover:text-blue-700 dark:hover:text-cyan-400 border duration-500 hover:-translate-y-1.5 p-2.5 rounded-full  transition hover:shadow-[0_0_15px_rgba(0,0,0,0.4)]">
               <svg class="lg:w-5 lg:h-5 xs:w-4 xs:h-4" fill="currentColor" viewBox="0 0 24 24">
                 <path d="M22.23 0H1.77C.79 0 0 .77 0 1.72v20.56C0 23.23.79 24 1.77 24H22.2c.98 0 1.8-.77 1.8-1.72V1.72C24 .77 23.2 0 22.23 0zM7.1 20.44H3.56V9H7.1v11.44zM5.34 7.52c-1.14 0-2.06-.91-2.06-2.03s.92-2.03 2.06-2.03 2.06.91 2.06 2.03-.92 2.03-2.06 2.03zM20.45 20.44h-3.53v-5.65c0-1.35-.03-3.08-1.88-3.08-1.89 0-2.18 1.47-2.18 2.99v5.74H9.33V9h3.39v1.56h.05c.47-.9 1.61-1.86 3.32-1.86 3.56 0 4.22 2.34 4.22 5.37v6.37z"/>
               </svg>
@@ -123,7 +124,7 @@
               target="_blank"
             >
               <button
-                class="w-48 md:w-52 lg:w-52 px-4 lg:px-8 py-2 md:py-3 text-white dark:text-black bg-blue-700 dark:bg-[#00f0ff] rounded-full font-medium transition duration-500 hover:shadow-[0_0_15px_rgba(0,0,0,0.4)] hover:shadow-blue-700 dark:hover:shadow-cyan-400"
+                class="xs:w-48 md:w-52 lg:w-52 px-4 lg:px-8 py-2 md:py-3 text-white dark:text-black bg-blue-700 dark:bg-[#00f0ff] rounded-full font-medium transition duration-500 hover:shadow-[0_0_10px_rgba(0,0,0,0.4)] hover:shadow-blue-700 dark:hover:shadow-cyan-400"
               >
                 Download CV
               </button>
@@ -139,10 +140,11 @@
             data-aos="zoom-in"
             data-aos-delay="100"
             data-aos-duration="1000"
-            class="overflow-hidden rounded-sm relative lg:-mt-12 z-10 w-full max-w-[350px] bg-cyan-400 ring-4 dark:ring-cyan-400 ring-blue-700 shadow-[0_0_25px_rgba(0,0,0,0.4)] dark:shadow-cyan-400"
+            class="overflow-hidden xs:w-[220px] xs:h-[240px] sm:w-[280px] sm:h-[260px] md:w-[280px] md:h-[280px] lg:w-[320px] lg:h-[330px] lg:-mt-12 rounded-xl border-2 border-blue-700 dark:border-cyan-400 object-cover shadow-[0_0_25px_rgba(0,0,0,0.4)] shadow-blue-800 dark:shadow-cyan-400 duration-500 transition"
           >
+          <!-- class="overflow-hidden rounded-sm relative lg:-mt-12 z-10 w-full max-w-[350px] bg-cyan-400 ring-4 dark:ring-cyan-400 ring-blue-700 shadow-[0_0_25px_rgba(0,0,0,0.4)] dark:shadow-cyan-400" -->
             <img
-              src="/images/coder boy.avif"
+            src="/images/coder boy.avif"
               alt="Developer Image"
               class="w-full h-[340px] object-cover"
             />
