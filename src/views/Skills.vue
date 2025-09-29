@@ -147,7 +147,7 @@ const filteredStates = computed(() => {
   <section class="py-8 items-center">
     <section class="text-center">
       <h1 class="lg:text-2xl xs:text-xl font-serif font-bold xs:mt-2 md:mt-2 lg:-mt-5">
-        <span class="text-cyan-400">My Skills</span>
+        <span class="text-white">My <span class="text-cyan-400">Skills</span></span>
       </h1>
       <p class="mt-2 text-white">Technologies I work with</p>
       <div class="w-20 lg:h-1 xs:h-0.5 bg-cyan-500 mx-auto mt-3 rounded"></div>

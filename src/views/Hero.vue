@@ -94,7 +94,7 @@
           <!-- CV Button -->
           <div class="flex justify-center lg:justify-start lg:-mx-3.5">
             <a
-              href="https://drive.google.com/file/d/1Qwo1AQjX3kGLzp5QMU45ZH-_0f2p6zF7/view?usp=sharing "
+              href="https://drive.google.com/file/d/1pZUD8rx7Dedg_3Xcw1FY4L6HBZ3peZJv/view"
               target="_blank"
             >
               <button

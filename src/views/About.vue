@@ -28,7 +28,7 @@ const showMore = ref(false)
         </h1>
 
         <!-- Short Intro -->
-        <p class="text-gray-800 dark:text-gray-200 mb-6 text-sm sm:text-base leading-relaxed">
+        <p class="text-gray-200 mb-6 text-sm sm:text-base leading-relaxed">
          Hello! My full name is Aminur Rahman, and my nickname is Suhan. I’m from Habiganj, Sylhet, and I’m currently studying at Habiganj Polytechnic Institute. I have a deep passion for technology and programming, and I’m constantly striving to expand my knowledge in the field of web development. I enjoy building beautiful, responsive user interfaces and exploring how things work behind the scenes.
         </p>
 
@@ -47,7 +47,7 @@ const showMore = ref(false)
 
         <!-- Goals -->
         <div class="mt-6">
-          <ul class="space-y-2 text-gray-800 dark:text-gray-200">
+          <ul class="space-y-2 text-gray-200">
             <li>✅ Collaborate with other developers</li>
             <li>✅ Contribute to Open Source projects</li>
             <li>✅ Keep up with the latest web technologies</li>
@@ -57,7 +57,7 @@ const showMore = ref(false)
         <!-- Contact -->
         <div class="mt-6">
           <!-- <h2 class="text-lg font-semibold text-red-600 mb-2"></h2> -->
-          <p class="text-gray-800 dark:text-gray-200">📧 :- aminurrahmansuhan@gmail.com</p>
+          <p class="text-gray-200">📧 :- aminurrahmansuhan@gmail.com</p>
         </div>
       </div>
     </div>

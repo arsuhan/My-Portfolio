@@ -48,10 +48,10 @@ const states = reactive([
   <section class="py-8 items-center">
     <section class="text-center">
       <h1 class="lg:text-4xl xs:text-xl font-bold font-serif lg:mt-4 xs:-mt-4">
-        <span class="dark:text-white">My </span>
-        <span class="text-blue-600 dark:text-cyan-400">Projects</span>
+        <span class="text-white">My </span>
+        <span class="text-cyan-400">Projects</span>
       </h1>
-      <p class="mt-2 lg:text-[20px] dark:text-cyan-400">Some of my recent work</p>
+      <p class="mt-2 lg:text-[20px] text-white">Some of my recent work</p>
       <div class="w-20 lg:h-1 xs:h-0.5 bg-blue-500 dark:bg-cyan-400 mx-auto mt-3 rounded"></div>
     </section>
 
@@ -61,7 +61,7 @@ const states = reactive([
   class="grid grid-cols-1 md:grid-cols-2 mx-1.5 md:mx-auto lg:grid-cols-3 md:gap-4 lg:gap-6 xs:p-2 md:p-10"
 >
   <div v-for="state in states"
-    class="group bg-gray-700 border-2 border-blue-500 dark:border-cyan-400 h-auto lg:w-[380px] xs:w-full md:w-[320px] lg:mx-auto md:mx-auto rounded-lg shadow-sm dark:bg-gray-800 relative overflow-hidden transform transition-all duration-500 hover:-translate-y-2 xs:mt-7 md:mt-4">
+    class="group bg-gray-700 border-2 border-cyan-400 h-auto lg:w-[380px] xs:w-full md:w-[320px] lg:mx-auto md:mx-auto rounded-lg shadow-sm dark:bg-gray-800 relative overflow-hidden transform transition-all duration-500 hover:-translate-y-2 xs:mt-7 md:mt-4">
     
     <div class="overflow-hidden h-[250px]">
       <img
@@ -98,8 +98,8 @@ const states = reactive([
     <section class="mt- items-center justify-center flex">
       <a href="https://github.com/arsuhan?tab=repositories" target="_blank">
         <button type="button"
-          class="xs:mt-6 lg:mt- lg:text-lg xs:text-sm dark:hover:bg-cyan-400 px-5 py-2 me-2 mb-2 bg-blue-600 hover:bg-blue-700 overflow-hidden transform hover:-translate-y-2          
-          shadow-white lg:px-8 xs:py-2.5 lg:py-2.5 md:py-3 text-white dark:text-black dark:bg-[#00f0ff] shadow-[0_0_6px_rgba(0,0,0,0.4)] rounded-full font-medium transition duration-500 hover:shadow-blue-700 dark:hover:shadow-cyan-400">
+          class="xs:mt-6 lg:mt- lg:text-lg xs:text-sm hover:bg-cyan-400 px-5 py-2 me-2 mb-2 overflow-hidden transform hover:-translate-y-2          
+          shadow-white lg:px-8 xs:py-2.5 lg:py-2.5 md:py-3 text-white dark:text-black bg-[#00f0ff] shadow-[0_0_6px_rgba(0,0,0,0.4)] rounded-full font-medium transition duration-500 hover:shadow-cyan-400">
           View All Projects
         </button>
       </a>

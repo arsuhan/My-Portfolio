@@ -44,11 +44,11 @@ const submitForm = async () => {
     <section class="py-8 -my-1 shadow-lg dark:text-white">
       <section class="text-center">
         <h1 class="lg:text-4xl xs:text-xl font-serif font-bold xs:-mt-6 lg:mt-1">
-          <span class="dark:text-white">Get In </span>
-          <span class="text-blue-600 dark:text-cyan-400">Touch</span>
+          <span class="text-white">Get In </span>
+          <span class="text-cyan-400">Touch</span>
         </h1>
-        <p class="mt-2 lg:text-[20px] dark:text-cyan-400">Let's work together</p>
-        <div class="w-20 lg:h-1 xs:h-0.5 bg-blue-600 dark:bg-cyan-500 mx-auto mt-3 rounded"></div>
+        <p class="mt-2 lg:text-[20px] text-white">Let's work together</p>
+        <div class="w-20 lg:h-1 xs:h-0.5 bg-cyan-500 mx-auto mt-3 rounded"></div>
       </section>
 
    
@@ -65,8 +65,8 @@ const submitForm = async () => {
 
 <div class="space-x-2 mt-2 md:mt-16">
 
-  <h2 class="lg:text-3xl xs:text-xl xs:mx-2 lg:items-start lg:justify-start font-bold mb-4 lg:mx-6 text-blue-700 dark:text-white xs:-mt-6 md:justify-start">Contact Information</h2>
-  <p class="lg:text-[18px] xs:text-[14px] text-black dark:text-white mb-6 xs:-mt-1 lg:-mt-4 lg:p-6">
+  <h2 class="lg:text-3xl xs:text-xl xs:mx-2 lg:items-start lg:justify-start font-bold mb-4 lg:mx-6 text-white xs:-mt-6 md:justify-start">Contact Information</h2>
+  <p class="lg:text-[18px] xs:text-[14px] text-white mb-6 xs:-mt-1 lg:-mt-4 lg:p-6">
     I’m always open to job opportunities, collaborations, or conversations. If you have an idea or just want to say hello, feel free to reach out!
   </p>
   <div class="lg:space-y-10 xs:space-y-6">
@@ -83,8 +83,8 @@ const submitForm = async () => {
         </svg>
       </div>
       <div class="xs:-mt- lg:mx-2">
-        <h4 class="font-bold mt-3 mx-2 text-blue-700 dark:text-cyan-400">Email</h4>
-        <p class="dark:text-white mx-2">aminurrahmansuhan@gmail.com</p>
+        <h4 class="font-bold mt-3 mx-2 text-cyan-400">Email</h4>
+        <p class="text-white mx-2">aminurrahmansuhan@gmail.com</p>
       </div>
     </div>
 
@@ -102,8 +102,8 @@ const submitForm = async () => {
         </svg>
       </div>
       <div class="xs:-mt-1 lg:mx-2">
-        <h4 class="font-bold mx-2 text-blue-700 dark:text-cyan-400">Phone</h4>
-        <p class="dark:text-white mx-2">+880 1701635619</p>
+        <h4 class="font-bold mx-2 text-cyan-400">Phone</h4>
+        <p class="text-white mx-2">+880 1701635619</p>
       </div>
     </div>
 
@@ -121,8 +121,8 @@ const submitForm = async () => {
         </svg>
       </div>
       <div class="xs:-mt-1 lg:mx-2">
-        <h4 class="font-bold mx-2 text-blue-700 dark:text-cyan-400">Location</h4>
-        <p class="dark:text-white mx-2">Dhaka, Bangladesh</p>
+        <h4 class="font-bold mx-2 text-cyan-400">Location</h4>
+        <p class="text-white mx-2">Dhaka, Bangladesh</p>
       </div>
     </div>
   </div>
@@ -160,11 +160,11 @@ const submitForm = async () => {
             <section class="xs:-mx-4 lg:mx-0 ">
                 <div class="flex items-center justify-center">
                     <h1 class="lg:text-4xl xs:text-2xl font-bold md:-mt-2 lg:mt-3">
-                        <span class="dark:text-white">Contact </span>
-                        <span class="text-blue-700 dark:text-cyan-500">Me!</span>
+                        <span class="text-white">Contact </span>
+                        <span class="text-cyan-500">Me!</span>
                     </h1>
                 </div>
-              <label for="Name" class="block font-medium text-black dark:text-white mt-6"
+              <label for="Name" class="block font-medium text-white mt-6"
                 >Name</label
               >
               <input
@@ -173,12 +173,12 @@ const submitForm = async () => {
                 placeholder="Your ame"
                 v-model="name"
                 required
-                class="mt- dark:bg-[#1f242d] block w-full px-3 py-2 border border-gray-300 rounded-md shadow-sm focus:ring-white focus:border-blue-500 bg-white dark:border-gray-600 dark:text-white"
+                class="mt- bg-[#1f242d] block w-full px-3 py-2 border rounded-md shadow-sm focus:ring-white focus:border-blue-500 border-gray-600 text-white"
               />
             </section>
 
             <section class="xs:-mx-4 lg:mx-0">
-              <label for="Email" class="block font-medium dark:text-white "
+              <label for="Email" class="block font-medium text-white "
                 >Email</label
               >
               <input
@@ -187,13 +187,13 @@ const submitForm = async () => {
                 placeholder="Your Email"
                 v-model="email"
                 required
-                class="mt- dark:bg-[#1f242d] block w-full px-3 py-2 border border-gray-300 rounded-md shadow-sm focus:ring-white focus:border-blue-500 bg-white dark:border-gray-600 dark:text-white"
+                class="mt- bg-[#1f242d] block w-full px-3 py-2 border rounded-md shadow-sm focus:ring-white focus:border-blue-500 border-gray-600 text-white"
               />
             </section>
             <section class="xs:-mx-4 lg:mx-0">
               <label
                 for="Message"
-                class="block font-medium dark:text-white"
+                class="block font-medium text-white"
                 >Message</label
               >
               <textarea
@@ -201,7 +201,7 @@ const submitForm = async () => {
                 v-model="message"
                 placeholder="Your Message"
                 required
-                class="mt- dark:bg-[#1f242d] block w-full px-3 py-2 border-2 border-gray-300 rounded-md shadow-sm focus:ring-white focus:border-blue-500 bg-white dark:border-gray-600 dark:text-white"
+                class="mt- bg-[#1f242d] block w-full px-3 py-2 border-2 rounded-md shadow-sm focus:ring-white focus:border-blue-500 border-gray-600 text-white"
                 rows="4"
               >
               </textarea>
@@ -210,7 +210,7 @@ const submitForm = async () => {
             <div class="flex items-center justify-center">
                 <button
               type="submit"
-              class="xs:flex xs:items-center xs:justify-center lg:items-start lg:justify-start lg:block xs:w-40 lg:w-56 md:px-4 shadow-white lg:px-8 xs:py-2 md:py-3 text-white dark:text-black bg-blue-700 dark:bg-[#00f0ff] hover:shadow-[0_0_8px_rgba(0,0,0,0.4)] rounded-full font-medium transition duration-500 hover:shadow-blue-700 dark:hover:shadow-cyan-400 xs:text-sm lg:text-lg lg:-mt-4"
+              class="xs:flex xs:items-center xs:justify-center lg:items-start lg:justify-start lg:block xs:w-40 lg:w-56 md:px-4 shadow-white lg:px-8 xs:py-2 md:py-3 text-white bg-[#00f0ff] hover:shadow-[0_0_8px_rgba(0,0,0,0.4)] rounded-full font-medium transition duration-500 hover:shadow-cyan-400 xs:text-sm lg:text-lg lg:-mt-4"
             >
               Send Message
             </button>
