@@ -25,16 +25,16 @@ const handleLinkClick = () => {
   }, 100)
 }
 
-const toggleDarkMode = () => {
-  isDark.value = !isDark.value
-  if (isDark.value) {
-    document.documentElement.classList.add('dark')
-    localStorage.setItem('theme', 'dark')
-  } else {
-    document.documentElement.classList.remove('dark')
-    localStorage.setItem('theme', 'light')
-  }
-}
+// const toggleDarkMode = () => {
+//   isDark.value = !isDark.value
+//   if (isDark.value) {
+//     document.documentElement.classList.add('dark')
+//     localStorage.setItem('theme', 'dark')
+//   } else {
+//     document.documentElement.classList.remove('dark')
+//     localStorage.setItem('theme', 'light')
+//   }
+// }
 
 onMounted(() => {
   const theme = localStorage.getItem('theme')
@@ -46,34 +46,27 @@ onMounted(() => {
 </script>
 
 <template>
-  <nav class="fixed top-0 left-0 w-full z-50 opacity-95 bg-gray-100 dark:bg-[#1f242d] backdrop-blur-md shadow-md">
+  <nav class="fixed top-0 left-0 w-full z-50 opacity-95 bg-[#1f242d] backdrop-blur-md shadow-md">
     <div class="max-w-7xl mx-auto flex items-center justify-between p-3.5">
       
       <!-- Logo -->
-      <div class="lg:text-3xl text-2xl font-bold text-gray-800 dark:text-white font-serif">
-        Dev. Aminur<span class="text-cyan-500"></span>
+      <div class="lg:text-2xl font-bold text-white font-serif">
+        Deb. Aminur
       </div>
-<div v-for="(project, index) in projects" :key="index">
-  <a :href="project.github" target="_blank">
-    <button class="py-2 px-5 lg:-mt-3 text-sm font-medium text-black bg-cyan-400 border border-cyan-400 rounded-lg shadow-md hover:bg-[#1f242d] hover:text-white transition">
-      GitHub
-    </button>
-  </a>
-</div>
 
       <!-- Desktop Menu -->
-      <ul class="hidden md:flex items-center space-x-8 font-bold font-serif text-[17.5px] text-black dark:text-white">
-        <li><a href="#home" @click="handleLinkClick" class="transition underline text-blue-600 dark:text-cyan-400">Home</a></li>
-        <li><a href="#about" @click="handleLinkClick" class="hover:text-blue-600 dark:hover:text-cyan-500 hover:underline">About</a></li>
-        <li><a href="#skill" @click="handleLinkClick" class="hover:text-blue-600 dark:hover:text-cyan-500 hover:underline">Skills</a></li>
-        <li><a href="#project" @click="handleLinkClick" class="hover:text-blue-600 dark:hover:text-cyan-500 hover:underline">Projects</a></li>
-        <li><a href="#contact" @click="handleLinkClick" class="hover:text-blue-600 dark:hover:text-cyan-500 hover:underline">Contact</a></li>
-        <!-- <li>
-          <button @click="toggleDarkMode" class="text-2xl ml-3">
+      <ul class="hidden md:flex items-center space-x-8 font-bold font-serif text-[16px] text-white">
+        <li><a href="#home" @click="handleLinkClick" class="transition underline text-cyan-400">Home</a></li>
+        <li><a href="#about" @click="handleLinkClick" class="hover:text-cyan-400 hover:underline">About</a></li>
+        <li><a href="#skill" @click="handleLinkClick" class="hover:text-cyan-400 hover:underline">Skills</a></li>
+        <li><a href="#project" @click="handleLinkClick" class="hover:text-cyan-400 hover:underline">Projects</a></li>
+        <li><a href="#contact" @click="handleLinkClick" class="hover:text-cyan-400 hover:underline">Contact</a></li>
+        <li>
+          <!-- <button @click="toggleDarkMode" class="text-2xl ml-3">
             <span v-if="!isDark">🌙</span>
             <span v-else>☀️</span>
-          </button>
-        </li> -->
+          </button> -->
+        </li>
       </ul>
 
       <!-- Mobile Menu Button -->
@@ -121,4 +114,3 @@ onMounted(() => {
   opacity: 0;
 }
 </style>
-

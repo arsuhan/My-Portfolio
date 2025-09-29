@@ -155,7 +155,7 @@ const submitForm = async () => {
         <div class="">
           <form
             @submit.prevent="submitForm"
-            class="dark:bg-gray-700 bg-gray-400 rounded-lg xs:-mx-6 shadow-md xs:p-7 lg:p-6 lg:space-y-8 xs:space-y-5 md:space-y-4 xs:mt-5"
+            class="bg-gray-700 rounded-lg xs:-mx-6 shadow-md xs:p-7 lg:p-6 lg:space-y-8 xs:space-y-5 md:space-y-4 xs:mt-5"
           >
             <section class="xs:-mx-4 lg:mx-0 ">
                 <div class="flex items-center justify-center">
