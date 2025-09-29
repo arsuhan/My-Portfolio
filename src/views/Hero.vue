@@ -1,7 +1,7 @@
 <template>
   <section
     id="home"
-    class="md:py-2 dark:bg-[#1f242d] bg-gray-100 md:min-h-[600px] lg:min-h-[580px] overflow-x-hidden"
+    class="md:py-2 dark:bg-[#1f242d] bg-gray-100 md:min-h-[600px] lg:min-h-[560px] overflow-x-hidden"
   >
     <section
       class="lg:mt-40 flex items-center justify-center md:px-4 xs:px-4 relative"
@@ -22,7 +22,7 @@
           <h1
             class="xs:text-2xl md:text-3xl text-center lg:text-4xl font-bold text-white mt-2 underline underline-offset-4 decoration-4 lg:text-left" 
           >
-            Md. Aminur Rahman Suhan
+            Md. Aminur Rahman
           </h1>
 
           <h2
@@ -32,10 +32,8 @@
           </h2>
 
           <p class="text-white mb-6 lg:mb-3 lg:px-5 xs:mt-3 xs:text-sm lg:text-base md:text-[16px] xs:-mx-5 md:mt-6 md:text-center lg:text-start">
-            I've been very passionate about computers and programming since my School life. I dream to be
-            an expert software engineer so that I can build professional and useful software that has business
-            value. I am looking for a Junior software engineer position in a reputed software company that can
-            help me to achieve my goal.
+            With a strong foundation in HTML, CSS, JavaScript, and modern frameworks like Vue.js,
+            I enjoy building intuitive, accessible, and high-performing digital products that solve real-world problems.
         </p>
 
           <!-- Social Links -->

@@ -1,56 +1,10 @@
 <script setup>
-import { reactive, ref, computed} from 'vue'
+import { reactive, ref, computed } from 'vue'
 
-const open = ref(true)
+const filterType = ref('all') //
 
-const filterType = ref('all')
 const states = reactive([
-  {
-    img: '/images/html.png',
-    title: 'html',
-    subtitle: 'Semantic markup, accessibility standards, SEO optimization',
-    subtitle1: 'Semantic tags, SEO, a11y',
-  },
-  {
-    img: '/images/css.png',
-    title: 'css',
-    subtitle: 'Responsive design, animations, Flexbox/Grid layouts',
-     subtitle1: 'Alignment Structure Motion Grid',
-  },
-  {
-    img: '/images/bootstrap.png',
-    title: 'bootstrap',
-    subtitle: 'Modern UI design with bootstrap 5 design with',
-    subtitle1: 'Bootstrap 5 UI Design',
-  },
-  {
-    img: '/images/js.png',
-    title: 'java script',
-    subtitle: 'ES6+, DOM manipulation, async programming',
-    subtitle1: 'ES6, DOM, Async /Await',
-  },
-  {
-    img: '/images/tailwind.png',
-    title: 'tailwind css',
-    subtitle: 'Designing Custom Layouts with Tailwind CSS',
-    subtitle1: 'Utility-first Layouts',
-  },
-  {
-    img: '/images/vue.png',
-    title: 'vue js',
-    subtitle: 'Frontend Web Development using Vue.js',
-    subtitle1: 'Vue 3, Components, Props',
-  },
-  {
-    img: '/images/flowbite.png',
-    title: 'flowbite',
-    subtitle: 'Interactive UI Elements with Flowbite,',
-    subtitle1: 'UI Kit + Tailwind CSS',
-  },
-  
-
   // Group 1
-
   {
     img: '/images/html.png',
     title: 'html',
@@ -84,12 +38,20 @@ const states = reactive([
     title: 'tailwind css',
     subtitle: 'Designing Custom Layouts with Tailwind CSS',
     subtitle1: 'Utility-first Layouts',
+    group: 'group1'
   },
   {
     img: '/images/vue.png',
     title: 'vue js',
     subtitle: 'Frontend Web Development using Vue.js',
     subtitle1: 'Vue 3, Components, Props',
+    group: 'group1'
+  },
+  {
+    img: '/public/vite.png',
+    title: 'vite',
+    subtitle: 'Test and Debug APIs Effortlessly',
+    subtitle1: 'Test and Debug APIs Effortlessly',
     group: 'group1'
   },
   {
@@ -100,9 +62,8 @@ const states = reactive([
     group: 'group1'
   },
 
-  // end group 1
-
   // backend
+
   {
     img: '/images/firebase.png',
     title: 'firebase',
@@ -117,14 +78,30 @@ const states = reactive([
     subtitle1: 'NoSQL, CRUD, Atlas DB',
      group: 'group2'
   },
-  // end backend
+
+  // Group 2
+
 
   // tools
+  {
+    img: '/public/figma.png',
+    title: 'figma',
+    subtitle: 'Test and Debug APIs Effortlessly',
+    subtitle1: 'Test and Debug APIs Effortlessly',
+    group: 'group3'
+  },
   {
     img: '/images/github.png',
     title: 'git hub',
     subtitle: 'Version control, GitHub, CI/CD workflows',
     subtitle1: 'Git, Commits, CI/CD',
+    group: 'group3'
+  },
+  {
+    img: '/public/git.png',
+    title: 'git',
+    subtitle: 'Test and Debug APIs Effortlessly',
+    subtitle1: 'Test and Debug APIs Effortlessly',
     group: 'group3'
   },
   {
@@ -141,14 +118,28 @@ const states = reactive([
     subtitle1: 'Test and Debug APIs Effortlessly',
     group: 'group3'
   },
+  {
+    img: '/public/canva.png',
+    title: 'canva',
+    subtitle: 'Test and Debug APIs Effortlessly',
+    subtitle1: 'Test and Debug APIs Effortlessly',
+    group: 'group3'
+  },
+  {
+    img: '/public/vscode.png',
+    title: 'vscode',
+    subtitle: 'Test and Debug APIs Effortlessly',
+    subtitle1: 'Test and Debug APIs Effortlessly',
+    group: 'group3'
+  },
   // tools end
 ])
+
 // Filter
 const filteredStates = computed(() => {
   if (filterType.value === 'all') return states
   return states.filter(item => item.group === filterType.value)
 })
-
 </script>
 
 <template>
@@ -182,7 +173,7 @@ const filteredStates = computed(() => {
       </button>
     </div>
 
-    <section class="w-full xs:mt-8 lg:mt-16 xs:px-3 md:px-12 lg:px-24 grid lg:gap-4 md:gap-4 xs:gap-2 xs:grid-cols-2 md:grid-cols-4 lg:grid-cols-5">
+    <section class="w-full xs:mt-8 lg:mt-16 xs:px-3 md:px-12 lg:px-20 grid lg:gap-4 md:gap-4 xs:gap-2 xs:grid-cols-2 md:grid-cols-4 lg:grid-cols-5">
       <div
         v-for="(state, index) in filteredStates"
         :key="index"
