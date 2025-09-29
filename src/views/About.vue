@@ -21,7 +21,7 @@ const showMore = ref(false)
       </div>
 
       <!-- Right Content -->
-      <div class="lg:w-full h-auto bg-gray-700 p-5 md:p-10 rounded-xl xs:mt-6">
+      <div class="lg:w-full xs:-mx-3 h-auto bg-gray-700 p-5 md:p-10 rounded-xl xs:mt-6">
         <!-- Heading -->
         <h1 class="text-2xl md:text-3xl font-bold text-cyan-400 mb-4">
           About Me
