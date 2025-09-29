@@ -1,7 +1,7 @@
 <template>
   <section
     id="home"
-    class="md:py-2 dark:bg-[#1f242d] bg-gray-100 md:min-h-[600px] lg:min-h-[560px] overflow-x-hidden"
+    class="md:py-2 bg-[#1f242d] md:min-h-[600px] lg:min-h-[560px] overflow-x-hidden"
   >
     <section
       class="lg:mt-40 flex items-center justify-center md:px-4 xs:px-4 relative"
@@ -14,13 +14,13 @@
           class="md:mt-20 lg:-mt-10 xs:mt-24 md:mx-auto"
         >
           <p
-            class="text-2xl md:text-1xl lg:text-2xl font-medium text-white -mt-4 md:mt-0 xs:-mx-5 lg:text-left uppercase md:justify-center md:items-center md:flex"
+            class="text-2xl md:text-1xl lg:text-2xl font-medium text-white -mt-4 md:mt-0 xs:-mx-5 lg:text-left uppercase lg:justify-start md:justify-center md:items-center md:flex"
           >
             Hello, This's Me
           </p>
 
           <h1
-            class="xs:text-3xl md:text-3xl lg:text-4xl font-medium text-cyan-400 uppercase mt-2 underline underline-offset-2 decoration-4 lg:text-left xs:-mx-5 md:justify-center md:items-center md:flex" 
+            class="xs:text-3xl md:text-3xl lg:text-4xl font-medium text-cyan-400 uppercase mt-2 underline underline-offset-2 decoration-4 lg:text-left xs:-mx-5 lg:justify-start md:justify-center md:items-center md:flex" 
           >
             Md. Aminur Rahman
           </h1>

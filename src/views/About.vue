@@ -5,7 +5,7 @@ const showMore = ref(false)
 </script>
 
 <template>
-  <section id="about" class="py-16 dark:bg-[#1f242d]">
+  <section id="about" class="py-2 bg-[#1f242d]">
     <!--  -->
     <div class="w-full mx-auto flex flex-col lg:flex-row items-center lg:items-start gap-4 px-6 lg:px-20">
 
@@ -14,14 +14,14 @@ const showMore = ref(false)
         <img
           src="/public/suhan.jpg"
           alt="About Image"
-          class="rounded-xl border-2 lg:mt-20 border-cyan-400 object-cover shadow-lg shadow-cyan-400 
+          class="rounded-xl border lg:mt-20 xs:mt-10 border-cyan-400 object-cover shadow-lg 
                  xs:w-[230px] xs:h-[240px] sm:w-[280px] sm:h-[280px] lg:w-[290px] lg:h-[370px] 
                  duration-500 transition hover:scale-[1.03]"
         />
       </div>
 
       <!-- Right Content -->
-      <div class="lg:w-full xs:-mx-3 h-auto bg-gray-700 p-5 md:p-10 rounded-xl xs:mt-6">
+      <div class="lg:w-full xs:-mx-3 h-auto bg-gray-700 p-5 md:p-10 rounded-xl xs:mt-8">
         <!-- Heading -->
         <h1 class="text-2xl md:text-3xl font-bold text-cyan-400 mb-4">
           About Me

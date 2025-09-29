@@ -40,7 +40,7 @@ const submitForm = async () => {
 </script>
 
 <template>
-    <section id="contact" class="dark:bg-[#1f242d] bg-gray-100">
+    <section id="contact" class="bg-[#1f242d]">
     <section class="py-8 -my-1 shadow-lg dark:text-white">
       <section class="text-center">
         <h1 class="lg:text-4xl xs:text-xl font-serif font-bold xs:-mt-6 lg:mt-1">

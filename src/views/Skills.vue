@@ -143,7 +143,7 @@ const filteredStates = computed(() => {
 </script>
 
 <template>
-<section id="skill" class="dark:bg-[#1f242d] bg-gray-100">
+<section id="skill" class="bg-[#1f242d]">
   <section class="py-8 items-center">
     <section class="text-center">
       <h1 class="lg:text-2xl xs:text-xl font-serif font-bold xs:mt-2 md:mt-2 lg:-mt-5">

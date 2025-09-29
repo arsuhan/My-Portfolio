@@ -44,7 +44,7 @@ const states = reactive([
 
 <template>
 
-    <section id="project" class="dark:bg-[#1f242d] bg-gray-100">
+    <section id="project" class="bg-[#1f242d]">
   <section class="py-8 items-center">
     <section class="text-center">
       <h1 class="lg:text-4xl xs:text-xl font-bold font-serif lg:mt-4 xs:-mt-4">
