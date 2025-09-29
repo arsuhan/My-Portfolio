@@ -53,6 +53,13 @@ onMounted(() => {
       <div class="lg:text-3xl text-2xl font-bold text-gray-800 dark:text-white font-serif">
         Dev. Aminur<span class="text-cyan-500"></span>
       </div>
+<div v-for="(project, index) in projects" :key="index">
+  <a :href="project.github" target="_blank">
+    <button class="py-2 px-5 lg:-mt-3 text-sm font-medium text-black bg-cyan-400 border border-cyan-400 rounded-lg shadow-md hover:bg-[#1f242d] hover:text-white transition">
+      GitHub
+    </button>
+  </a>
+</div>
 
       <!-- Desktop Menu -->
       <ul class="hidden md:flex items-center space-x-8 font-bold font-serif text-[17.5px] text-black dark:text-white">
@@ -61,20 +68,20 @@ onMounted(() => {
         <li><a href="#skill" @click="handleLinkClick" class="hover:text-blue-600 dark:hover:text-cyan-500 hover:underline">Skills</a></li>
         <li><a href="#project" @click="handleLinkClick" class="hover:text-blue-600 dark:hover:text-cyan-500 hover:underline">Projects</a></li>
         <li><a href="#contact" @click="handleLinkClick" class="hover:text-blue-600 dark:hover:text-cyan-500 hover:underline">Contact</a></li>
-        <li>
+        <!-- <li>
           <button @click="toggleDarkMode" class="text-2xl ml-3">
             <span v-if="!isDark">🌙</span>
             <span v-else>☀️</span>
           </button>
-        </li>
+        </li> -->
       </ul>
 
       <!-- Mobile Menu Button -->
       <div class="md:hidden flex items-center space-x-4">
-        <button @click="toggleDarkMode" class="text-2xl text-gray-800 dark:text-white">
+        <!-- <button @click="toggleDarkMode" class="text-2xl text-gray-800 dark:text-white">
           <span v-if="!isDark">🌙</span>
           <span v-else>☀️</span>
-        </button>
+        </button> -->
         <button @click="toggleMenu" class="text-gray-800 dark:text-white">
           <svg v-if="!isOpen" class="w-6 h-6" fill="none" stroke="currentColor" viewBox="0 0 24 24">
             <path stroke-linecap="round" stroke-linejoin="round" stroke-width="2"
