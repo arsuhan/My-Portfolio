@@ -5,7 +5,7 @@ const showMore = ref(false)
 </script>
 
 <template>
-  <section id="about" class="py-2 bg-[#1f242d]">
+  <section id="about" class="py-4 bg-[#1f242d]">
     <!--  -->
     <div class="w-full mx-auto flex flex-col lg:flex-row items-center lg:items-start gap-4 px-6 lg:px-20">
 
@@ -14,7 +14,7 @@ const showMore = ref(false)
         <img
           src="/public/suhan.jpg"
           alt="About Image"
-          class="rounded-xl border lg:mt-20 xs:mt-10 border-cyan-400 object-cover shadow-lg 
+          class="rounded-xl border lg:mt-24 xs:mt-2 border-cyan-400 object-cover shadow-lg 
                  xs:w-[230px] xs:h-[240px] sm:w-[280px] sm:h-[280px] lg:w-[290px] lg:h-[370px] 
                  duration-500 transition hover:scale-[1.03]"
         />
@@ -28,20 +28,20 @@ const showMore = ref(false)
         </h1>
 
         <!-- Short Intro -->
-        <p class="text-gray-200 mb-6 text-sm sm:text-base leading-relaxed">
+        <p class="text-gray-200 mb-6 text-[18px] sm:text-base leading-relaxed">
          Hello! My full name is Aminur Rahman, and my nickname is Suhan. I’m from Habiganj, Sylhet, and I’m currently studying at Habiganj Polytechnic Institute. I have a deep passion for technology and programming, and I’m constantly striving to expand my knowledge in the field of web development. I enjoy building beautiful, responsive user interfaces and exploring how things work behind the scenes.
         </p>
 
         <!-- Skills -->
         <ul class="space-y-2 text-gray-200 text-sm sm:text-base">
           <li>
-            🔹 <b>Frontend Focus:</b> Vue.js, Next.js, Tailwind CSS, <b>JavaScript, TypeScript</b>
+            🔹 <b>Frontend Focus:</b> Vue.js, Next.js, Tailwind CSS, <b>JavaScript, TypeScript !</b>
           </li>
           <li>
-            🔹 <b>Backend:</b> MongoDB, Mongoose, PostgreSQL, Express.js, Node.js, Firebase
+            🔹 <b>Backend:</b> MongoDB, Mongoose, PostgreSQL, Express.js, Node.js, Firebase !
           </li>
           <li>
-            🔹 <b>Development Tools:</b> bscode, git, github, postman
+            🔹 <b>Development Tools:</b> vscode, git, github, postman, netlify !
           </li>
         </ul>
 

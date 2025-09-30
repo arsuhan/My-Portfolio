@@ -31,7 +31,7 @@
             I am a <span class="text-cyan-400">Frontend Developer</span>
           </h2>
 
-          <p class="text-white mb-6 lg:mb-3 lg:px-5 xs:mt-3 xs:text-sm lg:text-base md:text-[16px] xs:-mx-5 md:mt-6 md:text-center lg:text-start lg:-mx-9">
+          <p class="text-white mb-6 lg:mb-3 lg:px-5 xs:mt-3 xs:text-[16.5px] lg:text-base md:text-[16px] xs:-mx-5 md:mt-6 md:text-center lg:text-start lg:-mx-9">
             With a strong foundation in HTML, CSS, JavaScript, and modern frameworks like Vue.js,
             I enjoy building intuitive, accessible, and high-performing digital products that solve real-world problems.
         </p>

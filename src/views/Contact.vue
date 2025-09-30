@@ -43,7 +43,7 @@ const submitForm = async () => {
     <section id="contact" class="bg-[#1f242d]">
     <section class="py-8 -my-1 shadow-lg dark:text-white">
       <section class="text-center">
-        <h1 class="lg:text-4xl xs:text-xl font-serif font-bold xs:-mt-6 lg:mt-1">
+        <h1 class="lg:text-2xl xs:text-xl font-serif font-bold xs:-mt-6 lg:mt-1">
           <span class="text-white">Get In </span>
           <span class="text-cyan-400">Touch</span>
         </h1>
@@ -82,7 +82,7 @@ const submitForm = async () => {
           <path d="M20 4H4v16h16V4zM5.5 6.5l6.5 4.5 6.5-4.5V18H5.5V6.5z" />
         </svg>
       </div>
-      <div class="xs:-mt- lg:mx-2">
+      <div class="xs:-mt- lg:mx-2 ">
         <h4 class="font-bold mt-3 mx-2 text-cyan-400">Email</h4>
         <p class="text-white mx-2">aminurrahmansuhan@gmail.com</p>
       </div>

@@ -146,7 +146,7 @@ const filteredStates = computed(() => {
 <section id="skill" class="bg-[#1f242d]">
   <section class="py-8 items-center">
     <section class="text-center">
-      <h1 class="lg:text-2xl xs:text-xl font-serif font-bold xs:mt-2 md:mt-2 lg:-mt-5">
+      <h1 class="lg:text-2xl xs:text-xl font-serif font-bold xs:-mt-5 md:mt-2 lg:mt-6">
         <span class="text-white">My <span class="text-cyan-400">Skills</span></span>
       </h1>
       <p class="mt-2 text-white">Technologies I work with</p>
