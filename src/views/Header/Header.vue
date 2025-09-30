@@ -59,8 +59,8 @@ onMounted(() => {
         <li><a href="#home" @click="handleLinkClick" class="transition underline text-cyan-400">Home</a></li>
         <li><a href="#about" @click="handleLinkClick" class="hover:text-cyan-400 hover:underline">About</a></li>
         <li><a href="#skill" @click="handleLinkClick" class="hover:text-cyan-400 hover:underline">Skills</a></li>
-        <li><a href="#education" @click="handleLinkClick" class="hover:text-cyan-400 hover:underline">Education</a></li>
         <li><a href="#project" @click="handleLinkClick" class="hover:text-cyan-400 hover:underline">Projects</a></li>
+        <li><a href="#education" @click="handleLinkClick" class="hover:text-cyan-400 hover:underline">Education</a></li>
         <li><a href="#contact" @click="handleLinkClick" class="hover:text-cyan-400 hover:underline">Contact</a></li>
         <li>
           <!-- <button @click="toggleDarkMode" class="text-2xl ml-3">
@@ -96,8 +96,8 @@ onMounted(() => {
         <a href="#home" @click="handleLinkClick" class="hover:text-cyan-500">Home</a>
         <a href="#about" @click="handleLinkClick" class="hover:text-cyan-500">About</a>
         <a href="#skill" @click="handleLinkClick" class="hover:text-cyan-500">Skills</a>
-        <a href="#education" @click="handleLinkClick" class="hover:text-cyan-500">Education</a>
         <a href="#project" @click="handleLinkClick" class="hover:text-cyan-500">Projects</a>
+        <a href="#education" @click="handleLinkClick" class="hover:text-cyan-500">Education</a>
         <a href="#contact" @click="handleLinkClick" class="hover:text-cyan-500">Contact</a>
       </div>
     </transition>

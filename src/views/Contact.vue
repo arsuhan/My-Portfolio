@@ -43,7 +43,7 @@ const submitForm = async () => {
     <section id="contact" class="bg-[#1f242d]">
     <section class="py-8 -my-1 shadow-lg dark:text-white">
       <section class="text-center">
-        <h1 class="lg:text-2xl xs:text-xl font-serif font-bold xs:-mt-6 lg:mt-1">
+        <h1 class="lg:text-2xl xs:text-xl font-serif font-bold xs:-mt-3 lg:mt-6">
           <span class="text-white">Get In </span>
           <span class="text-cyan-400">Touch</span>
         </h1>
@@ -51,12 +51,12 @@ const submitForm = async () => {
         <div class="w-20 lg:h-1 xs:h-0.5 bg-cyan-500 mx-auto mt-3 rounded"></div>
       </section>
 
-   
+   <!--  -->
       <section data-aos="fade-up"
       data-aos-duration="1000"
      data-aos-anchor-placement="center-bottom"
 
-        class="p-10 md:px-16 lg:mt-8 xs:py-10"
+        class="p-10 md:px-16 lg:mt-1 xs:py-12"
       >
         <div class="max-w-7xl mx-auto grid md:grid-cols-2 md:gap-20 lg:gap-24 xs:gap-6">
 
@@ -155,11 +155,11 @@ const submitForm = async () => {
         <div class="">
           <form
             @submit.prevent="submitForm"
-            class="bg-gray-700 rounded-lg xs:-mx-6 shadow-md xs:p-7 lg:p-6 lg:space-y-8 xs:space-y-5 md:space-y-4 xs:mt-5"
+            class="bg-gray-700 rounded-lg xs:-mx-6 shadow-md xs:p-7 lg:p-5 lg:space-y-8 xs:space-y-5 md:space-y-4 xs:mt-5"
           >
             <section class="xs:-mx-4 lg:mx-0 ">
                 <div class="flex items-center justify-center">
-                    <h1 class="lg:text-4xl xs:text-2xl font-bold md:-mt-2 lg:mt-3">
+                    <h1 class="lg:text-3xl xs:text-2xl font-bold md:-mt-2 lg:mt-3">
                         <span class="text-white">Contact </span>
                         <span class="text-cyan-500">Me!</span>
                     </h1>
@@ -210,7 +210,7 @@ const submitForm = async () => {
             <div class="flex items-center justify-center">
                 <button
               type="submit"
-              class="xs:flex xs:items-center xs:justify-center lg:items-start lg:justify-start lg:block xs:w-40 lg:w-56 md:px-4 shadow-white lg:px-8 xs:py-2 md:py-3 text-white bg-[#00f0ff] hover:shadow-[0_0_8px_rgba(0,0,0,0.4)] rounded-full font-medium transition duration-500 hover:shadow-cyan-400 xs:text-sm lg:text-lg lg:-mt-4"
+              class="xs:flex xs:items-center xs:justify-center lg:items-start lg:justify-start lg:block xs:w-40 lg:w-56 md:px-4 shadow-white lg:px-8 xs:py-2 md:py-2 text-black bg-[#00f0ff] hover:shadow-[0_0_8px_rgba(0,0,0,0.4)] rounded-lg font-medium transition duration-500 hover:shadow-cyan-400 xs:text-sm lg:text-lg lg:-mt-2"
             >
               Send Message
             </button>

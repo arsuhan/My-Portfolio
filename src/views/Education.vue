@@ -2,7 +2,7 @@
 </script>
 
 <template>
-  <section id="education" class="py-16 bg-[#1f242d] text-white">
+  <section id="education" class="py-8 bg-[#1f242d] text-white">
     <div class="container mx-auto px-6 lg:px-28 text-center">
       
       <!-- Section Title -->

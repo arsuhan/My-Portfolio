@@ -156,19 +156,19 @@ const filteredStates = computed(() => {
     <!-- Filter Buttons -->
     <div class="flex justify-center gap-4 mt-6">
       <button @click="filterType = 'all'" 
-        :class="['px-6 py-2 rounded-full text-sm font-medium', filterType==='all' ? 'bg-cyan-400 text-black' : 'bg-gray-800 text-white hover:bg-cyan-600']">
+        :class="['px-6 py-2 rounded-lg text-sm font-medium', filterType==='all' ? 'bg-cyan-400 text-black' : 'bg-gray-800 text-white hover:bg-cyan-600']">
         All
       </button>
       <button @click="filterType = 'group1'" 
-        :class="['px-4 py-2 rounded-full text-sm font-medium', filterType==='group1' ? 'bg-cyan-400 text-black' : 'bg-gray-800 text-white hover:bg-cyan-600']">
+        :class="['px-4 py-2 rounded-lg text-sm font-medium', filterType==='group1' ? 'bg-cyan-400 text-black' : 'bg-gray-800 text-white hover:bg-cyan-600']">
         Frontend
       </button>
       <button @click="filterType = 'group2'" 
-        :class="['px-4 py-2 rounded-full text-sm font-medium', filterType==='group2' ? 'bg-cyan-400 text-black' : 'bg-gray-800 text-white hover:bg-cyan-600']">
+        :class="['px-4 py-2 rounded-lg text-sm font-medium', filterType==='group2' ? 'bg-cyan-400 text-black' : 'bg-gray-800 text-white hover:bg-cyan-600']">
         Backend
       </button>
       <button @click="filterType = 'group3'" 
-        :class="['px-4 py-2 rounded-full text-sm font-medium', filterType==='group3' ? 'bg-cyan-400 text-black' : 'bg-gray-800 text-white hover:bg-cyan-600']">
+        :class="['px-4 py-2 rounded-lg text-sm font-medium', filterType==='group3' ? 'bg-cyan-400 text-black' : 'bg-gray-800 text-white hover:bg-cyan-600']">
         Tools
       </button>
     </div>
