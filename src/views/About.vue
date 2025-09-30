@@ -14,7 +14,7 @@ const showMore = ref(false)
         <img
           src="/public/suhan.jpg"
           alt="About Image"
-          class="rounded-xl border lg:mt-24 xs:mt-2 border-cyan-400 object-cover shadow-lg 
+          class="rounded-xl border lg:mt-24 xs:mt-6 border-cyan-400 object-cover shadow-lg 
                  xs:w-[230px] xs:h-[240px] sm:w-[280px] sm:h-[280px] lg:w-[290px] lg:h-[370px] 
                  duration-500 transition hover:scale-[1.03]"
         />

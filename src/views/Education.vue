@@ -15,7 +15,7 @@
       </section>
 
       <!-- Cards -->
-      <div class="grid md:grid-cols-2 gap-10 mt-12 xs:-mx-5 md:mx-8">
+      <div class="grid md:grid-cols-2 gap-10 mt-12 xs:-mx-3 md:mx-8">
         
         <!-- Education Card -->
         <div
