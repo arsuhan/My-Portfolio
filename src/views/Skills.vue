@@ -48,7 +48,7 @@ const states = reactive([
     group: 'group1'
   },
   {
-    img: '/public/vite.png',
+    img: '/images/vite.png',
     title: 'vite',
     subtitle: 'Test and Debug APIs Effortlessly',
     subtitle1: 'Test and Debug APIs Effortlessly',
@@ -84,7 +84,7 @@ const states = reactive([
 
   // tools
   {
-    img: '/public/figma.png',
+    img: '/images/figma.png',
     title: 'figma',
     subtitle: 'Test and Debug APIs Effortlessly',
     subtitle1: 'Test and Debug APIs Effortlessly',
@@ -98,7 +98,7 @@ const states = reactive([
     group: 'group3'
   },
   {
-    img: '/public/git.png',
+    img: '/images/git.png',
     title: 'git',
     subtitle: 'Test and Debug APIs Effortlessly',
     subtitle1: 'Test and Debug APIs Effortlessly',
@@ -119,14 +119,14 @@ const states = reactive([
     group: 'group3'
   },
   {
-    img: '/public/canva.png',
+    img: '/images/canva.png',
     title: 'canva',
     subtitle: 'Test and Debug APIs Effortlessly',
     subtitle1: 'Test and Debug APIs Effortlessly',
     group: 'group3'
   },
   {
-    img: '/public/vscode.png',
+    img: '/images/vscode.png',
     title: 'vscode',
     subtitle: 'Test and Debug APIs Effortlessly',
     subtitle1: 'Test and Debug APIs Effortlessly',

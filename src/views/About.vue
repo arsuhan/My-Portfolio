@@ -14,8 +14,8 @@ const showMore = ref(false)
         <img
           src="/public/suhan.jpg"
           alt="About Image"
-          class="rounded-xl border lg:mt-24 xs:mt-6 border-cyan-400 object-cover shadow-lg 
-                 xs:w-[230px] xs:h-[240px] sm:w-[280px] sm:h-[280px] lg:w-[290px] lg:h-[370px] 
+          class="rounded-xl border lg:mt-24 xs:mt-8 border-cyan-400 object-cover shadow-lg 
+                 xs:w-[240px] xs:h-[260px] sm:w-[280px] sm:h-[280px] lg:w-[290px] lg:h-[370px] 
                  duration-500 transition hover:scale-[1.03]"
         />
       </div>
@@ -28,7 +28,7 @@ const showMore = ref(false)
         </h1>
 
         <!-- Short Intro -->
-        <p class="text-gray-200 mb-6 text-[18px] sm:text-base leading-relaxed">
+        <p class="text-gray-200 mb-6 text-[16px] sm:text-base leading-relaxed">
          Hello! My full name is Aminur Rahman, and my nickname is Suhan. I’m from Habiganj, Sylhet, and I’m currently studying at Habiganj Polytechnic Institute. I have a deep passion for technology and programming, and I’m constantly striving to expand my knowledge in the field of web development. I enjoy building beautiful, responsive user interfaces and exploring how things work behind the scenes.
         </p>
 
