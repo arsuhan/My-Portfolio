@@ -92,7 +92,7 @@ onMounted(() => {
     <!-- Mobile Menu Items -->
     <transition name="slide-fade">
       <div v-if="isOpen"
-        class="md:hidden flex flex-col space-y-4 px-6 pb-6 pt-2 bg-[#1e293b]/90 backdrop-blur-md shadow-sm border-t text-gray-100 font-serif font-semibold text-base">
+        class="md:hidden flex flex-col space-y-4 px-6 pb-6 pt-2 bg-[#1e293b]/90 backdrop-blur-md shadow-sm border-t text-gray-100 font-semibold text-base">
         <a href="#home" @click="handleLinkClick" class="hover:text-cyan-500">Home</a>
         <a href="#about" @click="handleLinkClick" class="hover:text-cyan-500">About</a>
         <a href="#skill" @click="handleLinkClick" class="hover:text-cyan-500">Skills</a>

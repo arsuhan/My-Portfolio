@@ -47,7 +47,7 @@
             <!-- GitHub -->
       
           <a href="https://www.linkedin.com/in/aminur-rahman-200366328/" 
-            target="_blank" class="text-cyan-400 border-cyan-400 hover:shadow-cyan-400 hover:text-cyan-400 border duration-500 hover:-translate-y-1.5 p-1.5 rounded-lg  transition hover:shadow-[0_0_8px_rgba(0,0,0,0.4)]">
+            target="_blank" class="text-cyan-400 border-cyan-400 hover:shadow-cyan-400 hover:text-cyan-400 border duration-500 hover:-translate-y-1.5 xs:p-2 lg:p-1.5 rounded-lg  transition hover:shadow-[0_0_8px_rgba(0,0,0,0.4)]">
               <svg
                 class="lg:w-5 lg:h-5 xs:w-4 xs:h-4"
                 fill="currentColor"
