@@ -12,7 +12,7 @@ const showMore = ref(false)
       <!-- Left Image -->
       <div class="lg:w-1/2 flex justify-center lg:justify-start">
         <img
-          src="/images/suhan.jpg"
+          src="/images/sss.jpg"
           alt="About Image"
           class="rounded-xl border lg:mt-24 xs:mt-8 border-cyan-400 object-cover shadow-lg 
                  xs:w-[240px] xs:h-[260px] sm:w-[280px] sm:h-[280px] lg:w-[290px] lg:h-[370px] 

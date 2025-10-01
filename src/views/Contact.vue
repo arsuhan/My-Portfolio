@@ -1,7 +1,8 @@
 <script setup>
 import { reactive, ref } from 'vue'
 
-const WEB3FORMS_ACCESS_KEY = '341f3d57-781b-4e75-95f4-25a5f8c2c5f1'
+// const WEB3FORMS_ACCESS_KEY = '341f3d57-781b-4e75-95f4-25a5f8c2c5f1'
+const WEB3FORMS_ACCESS_KEY = '6a8ec512-5212-4814-b032-1a9964d81893'
 const name = ref('')
 const email = ref('')
 const message = ref('')
@@ -26,13 +27,14 @@ const submitForm = async () => {
   const result = await response.json()
   if (result.success) {
     console.log(result)
-    showSuccess.value = true // ✅ Alert show
+    showSuccess.value = true // Alert show
     setTimeout(() => {
       showSuccess.value = false 
     }, 3000)
+    
   }
 
-  // ইনপুট ফিল্ড খালি করা
+  // \\
   name.value = ''
   email.value = ''
   message.value = ''

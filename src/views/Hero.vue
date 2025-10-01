@@ -1,3 +1,6 @@
+<script setup>
+</script>
+
 <template>
   <section
     id="home"
@@ -7,7 +10,7 @@
       class="lg:mt-40 flex items-center justify-center md:px-4 xs:px-4 relative"
     >
       <div
-        class="items-center xs:mx-4 md:mx-10 lg:mx-20 flex flex-wrap lg:flex-nowrap"
+        class="items-center xs:mx-4 md:mx-10 lg:mx-16 flex flex-wrap lg:flex-nowrap"
       >
         <!-- Left Content -->
         <div
@@ -26,12 +29,12 @@
           </h1>
 
           <h2
-            class="text-xl md:text-xl lg:text-2xl xs:-mx-5 font-semibold lg:mt-6 xs:mt-3 text-white flex lg:justify-start gap-2 md:mt-5 md:justify-center md:items-center md:flex"
+            class="text-xl md:text-xl lg:text-2xl xs:-mx-5 font-semibold xs:mt-3 text-white flex lg:justify-start gap-2 md:mt-5 md:justify-center md:items-center md:flex"
           >
-            I am a <span class="text-cyan-400">Frontend Developer</span>
+            I am a <span class="text-cyan-400"> Frontend Developer</span>
           </h2>
 
-          <p class="text-white mb-6 lg:mb-3 lg:px-5 xs:mt-3 xs:text-[16.5px] lg:text-base md:text-[16px] xs:-mx-5 md:mt-6 md:text-center lg:text-start lg:-mx-9">
+          <p class="text-white mb-6 lg:mt-4 lg:mb-3 lg:px-5 xs:mt-3 xs:text-[16.5px] lg:text-base md:text-[16px] xs:-mx-5 md:mt-6 md:text-center lg:text-start lg:-mx-9">
             With a strong foundation in HTML, CSS, JavaScript, and modern frameworks like Vue.js,
             I enjoy building intuitive, accessible, and high-performing digital products that solve real-world problems.
         </p>
@@ -42,13 +45,11 @@
           >
 
             <!-- GitHub -->
-            <a
-              href="https://github.com/arsuhan"
-              target="_blank"
-              class="text-cyan-400 border-cyan-400 hover:shadow-cyan-400 hover:text-cyan-400 border duration-500 hover:-translate-y-1.5 lg:p-2 md:p-2 p-2 rounded-lg transition hover:shadow-[0_0_15px_rgba(0,0,0,0.4)]"
-            >
+      
+          <a href="https://www.linkedin.com/in/aminur-rahman-200366328/" 
+            target="_blank" class="text-cyan-400 border-cyan-400 hover:shadow-cyan-400 hover:text-cyan-400 border duration-500 hover:-translate-y-1.5 p-1.5 rounded-lg  transition hover:shadow-[0_0_8px_rgba(0,0,0,0.4)]">
               <svg
-                class="w-5 h-5"
+                class="lg:w-5 lg:h-5 xs:w-4 xs:h-4"
                 fill="currentColor"
                 viewBox="0 0 24 24"
               >
@@ -79,11 +80,10 @@
                 />
               </svg>
             </a>
-
             <!-- linke din -->
 
             <a href="https://www.linkedin.com/in/aminur-rahman-200366328/" 
-            target="_blank" class="text-cyan-400 border-cyan-400 hover:shadow-cyan-400 hover:text-cyan-400 border duration-500 hover:-translate-y-1.5 p-2.5 rounded-lg  transition hover:shadow-[0_0_15px_rgba(0,0,0,0.4)]">
+            target="_blank" class="text-cyan-400 border-cyan-400 hover:shadow-cyan-400 hover:text-cyan-400 border duration-500 hover:-translate-y-1.5 p-2 rounded-lg  transition hover:shadow-[0_0_8px_rgba(0,0,0,0.4)]">
               <svg class="lg:w-4 lg:h-4 xs:w-4 xs:h-4" fill="currentColor" viewBox="0 0 24 24">
                 <path d="M22.23 0H1.77C.79 0 0 .77 0 1.72v20.56C0 23.23.79 24 1.77 24H22.2c.98 0 1.8-.77 1.8-1.72V1.72C24 .77 23.2 0 22.23 0zM7.1 20.44H3.56V9H7.1v11.44zM5.34 7.52c-1.14 0-2.06-.91-2.06-2.03s.92-2.03 2.06-2.03 2.06.91 2.06 2.03-.92 2.03-2.06 2.03zM20.45 20.44h-3.53v-5.65c0-1.35-.03-3.08-1.88-3.08-1.89 0-2.18 1.47-2.18 2.99v5.74H9.33V9h3.39v1.56h.05c.47-.9 1.61-1.86 3.32-1.86 3.56 0 4.22 2.34 4.22 5.37v6.37z"/>
               </svg>
@@ -92,29 +92,38 @@
           </div>
 
           <!-- CV Button -->
-          <div class="flex justify-center lg:justify-start lg:-mx-3.5">
-            <a
+          <div class="flex justify-center lg:justify-start lg:-mx-4">
+
+            <div class="flex gap-3">
+              <a
               href="https://drive.google.com/file/d/1pZUD8rx7Dedg_3Xcw1FY4L6HBZ3peZJv/view"
               target="_blank"
             >
-              <button
-                class="w-48 md:w-52 lg:w-42 px-4 lg:px-8 py-2 md:py-3 text-black hover:shadow-cyan-400 bg-[#00f0ff] rounded-lg font-medium duration-500 transition hover:shadow-[0_0_15px_rgba(0,0,0,0.4)]hover:shadow-cyan-400"
-              >
-                Download Resume
-              </button>
+            <div>
+              <button type="button" class="text-black bg-cyan-400 hover:bg-[#1f242d]
+            border border-cyan-400 shadow-cyan-800 hover:text-white hover:shadow-cyan-400 shadow-[0_0_6px_rgba(0,0,0,0.4)] font-medium rounded-lg text-sm px-5 py-2 text-center inline-flex items-center gap-1.5">
+                Download CV
+              <svg stroke="currentColor" fill="currentColor" stroke-width="0" viewBox="0 0 512 512" height="1em" width="1em" xmlns="http://www.w3.org/2000/svg">
+              <path d="M216 0h80c13.3 0 24 10.7 24 24v168h87.7c17.8 0 26.7 21.5 14.1 34.1L269.7 378.3c-7.5 7.5-19.8 7.5-27.3 0L90.1 226.1c-12.6-12.6-3.7-34.1 14.1-34.1H192V24c0-13.3 10.7-24 24-24zm296 376v112c0 13.3-10.7 24-24 24H24c-13.3 0-24-10.7-24-24V376c0-13.3 10.7-24 24-24h146.7l49 49c20.1 20.1 52.5 20.1 72.6 0l49-49H488c13.3 0 24 10.7 24 24zm-124 88c0-11-9-20-20-20s-20 9-20 20 9 20 20 20 20-9 20-20zm64 0c0-11-9-20-20-20s-20 9-20 20 9 20 20 20 20-9 20-20z"></path>
+              </svg>
+            </button>
+            
+            </div>
             </a>
+            </div>
+
+            
           </div>
         </div>
 
         <!-- Right Image -->
 
-        <div class="hidden lg:flex justify-center lg:justify-end w-full duration-500 transition hover:scale-[1.03] h-[320px] -mt-6">
+        <div class="hidden lg:flex justify-center lg:justify-end w-full duration-500 transition hover:scale-[1.03] h-[320px] -mt-6 ">
       <div
-         class="overflow-hidden rounded-lg relative z-10 w-full max-w-[320px] bg-cyan-400 ring-2 dark:ring-cyan-400 ring-cyan-400 shadow-[0_0_25px_rgba(0,0,0,0.4)] shadow-cyan-400"
+         class="overflow-hidden rounded-full relative z-10 w-full max-w-[320px] bg-cyan-400 ring-2 dark:ring-cyan-400 ring-cyan-400 shadow-[0_0_25px_rgba(0,0,0,0.4)] shadow-cyan-400"
         >
-        <img src="/public/images/sohan.jpg" alt="Img" class="w-full object-cover rounded-"  
+        <img src="/public/images/xxxx.jpg" alt="Img" class="w-full rounded-full"  
         />  
-        />
       </div>
         </div>
       </div>
