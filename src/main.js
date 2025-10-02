@@ -1,6 +1,6 @@
 import '@fortawesome/fontawesome-free/css/all.css'
 import './assets/main.css'
-
+import { createApp } from 'vue'
 
 // import AOS from 'aos'
 import 'aos/dist/aos.css'
@@ -8,7 +8,7 @@ import 'aos/dist/aos.css'
 
 import './assets/main.css'
 // import { ref } from 'vue';
-import { createApp } from 'vue'
+// import { createApp } from 'vue'
 import App from './App.vue'
 import router from './router'
 // import Aos from 'aos';
