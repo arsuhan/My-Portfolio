@@ -55,7 +55,7 @@ const states = reactive([
 
       <div class="flex lg:mt-0.5 md:-mt-4">
         <section
-          class="items-center justify-center grid grid-cols-1 md:grid-cols-3 lg:grid-cols-3 xs:gap-1 md:gap-3 mx-1.5 md:mx-0 lg:mx-auto xs:p-2 md:p-9"
+          class="grid grid-cols-1 md:grid-cols-3 lg:grid-cols-3 md:gap-3 mx-1.5 md:mx-0 lg:mx-auto xs:p-2 md:p-9"
         >
           <div
             v-for="state in states"
