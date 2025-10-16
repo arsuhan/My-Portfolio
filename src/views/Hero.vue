@@ -128,7 +128,7 @@
           <div
             class="overflow-hidden rounded-full relative z-10 w-full max-w-[320px] bg-cyan-400 ring-2 dark:ring-cyan-400 ring-cyan-400 shadow-[0_0_25px_rgba(0,0,0,0.4)] shadow-cyan-400"
           >
-            <img src="/public/images/xxxx.jpg" alt="Img" class="w-full rounded-full" />
+            <img src="/public/images/suhan1.png" alt="Img" class="w-full rounded-full" />
           </div>
         </div>
       </div>

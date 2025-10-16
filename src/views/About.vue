@@ -13,9 +13,9 @@ const showMore = ref(false)
       <!-- Left Image -->
       <div class="lg:w-1/2 flex justify-center lg:justify-start">
         <img
-          src="/images/sss.jpg"
+          src="/images/sohan.png"
           alt="About Image"
-          class="rounded-xl border lg:mt-24 md:-mt-36 xs:mt-8 border-cyan-400 object-cover shadow-lg xs:w-[240px] xs:h-[260px] sm:w-[280px] sm:h-[280px] lg:w-[290px] lg:h-[370px] duration-500 transition hover:scale-[1.03]"
+          class="rounded-xl border lg:mt-24 md:-mt-36 xs:mt-8 border-cyan-400 shadow-lg xs:w-[240px] xs:h-[260px] sm:w-[280px] sm:h-[280px] lg:w-[290px] lg:h-[370px] duration-500 transition hover:scale-[1.03]"
         />
       </div>
 
