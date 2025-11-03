@@ -7,7 +7,7 @@
   >
     <section class="lg:mt-40 flex items-center justify-center md:px-4 xs:px-4 relative">
       <!-- <div class="items-center xs:mx-4 md:mx-10 lg:mx-24 flex flex-wrap lg:flex-nowrap"> -->
-      <div class="items-center xs:mx-4 md:mx-10 lg:mx-24 flex flex-col-reverse lg:flex-row">
+      <div class="items-center xs:mx-4 md:mx-10 lg:mx-20 flex flex-col-reverse lg:flex-row">
         <!-- Left Content -->
         <div class="md:mt-20 lg:-mt-10 xs:mt-24 md:mx-auto">
           <p
@@ -123,16 +123,13 @@
 
         <!-- Right Image -->
 
-        <!-- <div
-          class="hidden lg:flex justify-center lg:justify-end w-full duration-500 transition hover:scale-[1.03] h-[320px] -mt-6"
-        > -->
         <div
-          class="lg:flex justify-center lg:justify-end w-full duration-500 transition hover:scale-[1.03] h-[320px] -mt-6 xs:mt-28"
+          class="hidden lg:flex justify-center lg:justify-end w-full duration-500 transition hover:scale-[1.03] h-[340px] -mt-6"
         >
           <div
-            class="overflow-hidden rounded-[18%_0_18%_0] relative z-10 w-full max-w-[320px] bg-cyan-400 ring-2 dark:ring-cyan-400 ring-cyan-400 shadow-[0_0_25px_rgba(0,0,0,0.4)] shadow-cyan-400"
+            class="overflow-hidden rounded-[18%_0_18%_0] relative z-10 w-ful w-[320px] bg-cyan-400 ring-2 dark:ring-cyan-400 ring-cyan-400 shadow-[0_0_25px_rgba(0,0,0,0.4)] shadow-cyan-400"
           >
-            <img src="/public/images/suhan1.png" alt="Img" class="w-full h-full object-cover" />
+            <img src="/public/images/suhan1.png" alt="Img" class="w-full object-contain" />
           </div>
           <!-- <div
             class="overflow-hidden rounded-t-lg relative z-10 w-full max-w-[320px] bg-cyan-400 ring-2 dark:ring-cyan-400 ring-cyan-400 shadow-[0_0_25px_rgba(0,0,0,0.4)] shadow-cyan-400"

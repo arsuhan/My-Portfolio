@@ -47,7 +47,7 @@ onMounted(() => {
 
 <template>
   <nav class="fixed top-0 left-0 w-full z-50 opacity-95 bg-[#1f242d] backdrop-blur-md shadow-md">
-    <div class="max-w-7xl xs:-mx-1 md:mx-5 lg:mx-16 flex items-center justify-between p-3.5">
+    <div class="max-w-7xl xs:-mx-1 md:mx-5 lg:mx-14 flex items-center justify-between p-3.5">
       <!-- Logo -->
       <div class="lg:text-2xl font-semibold text-white">Deb. Aminur</div>
 
